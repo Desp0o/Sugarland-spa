@@ -1,0 +1,23 @@
+.slider{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sliderIMG{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.sliderIMG_active{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+
