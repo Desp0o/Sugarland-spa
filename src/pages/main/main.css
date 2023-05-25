@@ -68,7 +68,7 @@
         font-size: 19px;
     }
     .LuxuryMassage{
-        margin-top: 0px;
+        margin-top: 30px;
         font-size: 45px;
     }
     .mainBTN{
@@ -81,6 +81,13 @@
     .mainBTN:hover p{
         color: #FFF;
     }
+}
+
+@media (min-width:1900px) {
+    .LuxuryMassage{
+        margin-top: 0px;
+    }
+    
 }
 
 

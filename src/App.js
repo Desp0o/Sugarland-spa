@@ -1,14 +1,16 @@
 import {Routes,Route} from "react-router-dom";
-import Navbar from "./components/navbar/navbar";
 import Home from "./pages/main/main";
+import Services from "./pages/services/services";
+import Massages from "./pages/massages/massages";
 
 
 function App() {
   return (
     <>
-      <Navbar />
       <Routes>
         <Route exact path="*" element={<Home/>} />
+        <Route exact path="/pages/services/services" element={<Services/>} />
+        <Route exact path="/pages/massages/massages/:id" element={<Massages/>} />
       </Routes>
     </>
   );

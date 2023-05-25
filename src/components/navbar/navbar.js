@@ -8,7 +8,7 @@ import burgerMenu from '../images/burgerMenu.webp'
 import burgerMenuBlack from '../images/burgerMenuBlack.webp'
 import closeBtn from '../images/close.webp'
 
-export default function Navbar(){
+export default function Navbar(props){
     const [hamburgerMenu, setHamburgerMenu] = useState(burgerMenu) //hambugerMenu icon
     const [navbar, setNavbar] = useState('navbar')
     const [logoP, setLogoP] = useState('logoP')
@@ -58,14 +58,16 @@ export default function Navbar(){
 
     return(
         <>
-            <div className={navbar}>
-                <div className='logo'><p className={logoP}>Sugarland Spa</p></div>
+            <div className={props.bg ? props.bg : navbar}>
+                <Link to='/'>
+                    <div className='logo'><p className={props.logoColor ? props.logoColor : logoP}>Sugarland Spa</p></div>
+                </Link>
 
                 <div className='menu'>
-                    <Link to='/' className={menuColor}>home</Link>
-                    <Link to='/' className={menuColor}>about</Link>
-                    <Link to='/' className={menuColor}>services</Link>
-                    <Link to='/' className={menuColor}>contact</Link>
+                    <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>home</Link>
+                    <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>about</Link>
+                    <Link to='/pages/services/services' className={props.navLinkColor ? props.navLinkColor : menuColor}>services</Link>
+                    <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>contact</Link>
                 </div>
 
                 <div className='burgerMenu' onClick={burgerHandler}>
@@ -85,7 +87,7 @@ export default function Navbar(){
                 <div className='dashboardMenu'>
                     <Link to='/' className='dashboardLinks'>home</Link>
                     <Link to='/' className='dashboardLinks'>about</Link>
-                    <Link to='/' className='dashboardLinks'>services</Link>
+                    <Link to='/pages/services/services' className='dashboardLinks'>services</Link>
                     <Link to='/' className='dashboardLinks'>contact</Link>
                 </div>
             </div>

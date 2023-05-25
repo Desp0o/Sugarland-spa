@@ -3,8 +3,8 @@ import { useState, useEffect } from "react"
 import "./mainSlider.css"
 
 import mainImage from '../images/mainImage.webp'
-import deepTissue from '../images/deepTissue.webp'
-import bodyScrub from '../images/bodyScrub.webp'
+import deepTissue from '../images/massages/deepTissue.webp'
+import bodyScrub from '../images/massages/bodyScrub.webp'
 
 const sliderArr = [
     {
