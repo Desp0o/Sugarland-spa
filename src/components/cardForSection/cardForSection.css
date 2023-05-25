@@ -1,0 +1,22 @@
+.cardSmall{
+    box-sizing: border-box;
+    width: 210px;
+    height: 250px;
+
+    border: 1px solid #85AB8D;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardSmallIcon{
+    width: 60px;
+}
+
+.cardSmallDescription{
+    font-family: "commorant";
+    font-weight: 600;
+    font-size: 20px;
+}

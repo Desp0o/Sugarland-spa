@@ -1,0 +1,86 @@
+.mainBgTexts{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.SugarlandSpa{
+    text-align: center;
+    font-size: 20px;
+    font-family: "monserat";
+    font-weight: 100;
+    color: #FFF;
+    text-transform: capitalize;
+}
+
+.LuxuryMassage{
+    margin-top: -20px;
+    font-size: 70px;
+    font-family: 'upright';
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #FFF;
+}
+
+.mainBTN{
+    width: 150px;
+    height: 45px;
+    
+    border: 1px solid #E7EAE3;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+    cursor: pointer;
+
+    transition: all 0.4s ease;
+}
+
+.mainBTN p{
+    font-family: 'monserat';
+    color: #FFF;
+    font-size: 18px;
+    letter-spacing: 2px;
+    transition: all 0.4s ease;
+}
+
+.mainBTN:hover{
+    background-color: #E7EAE3;
+    transition: all 0.4s ease;
+}
+
+.mainBTN:hover p{
+    color: #000;
+    transition: all 0.4s ease;
+}
+
+@media (max-width:769px) {
+    .SugarlandSpa{
+        font-size: 19px;
+    }
+    .LuxuryMassage{
+        margin-top: 0px;
+        font-size: 45px;
+    }
+    .mainBTN{
+        margin-top: 20px;
+    }
+    .mainBTN:hover{
+        background-color: inherit;
+    }
+    
+    .mainBTN:hover p{
+        color: #FFF;
+    }
+}
+
+

@@ -13,6 +13,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    background-color: inherit;
+
+    transition: all 0.4s ease;
+}
+
+.whiteBG{
+    background-color: #FFF;
+    transition: all 0.4s ease;
 }
 
 .menu{
@@ -25,5 +34,135 @@
 
 .navMenuLinks{
     color: #fff;
+    font-weight: 600;
     text-transform: uppercase;
+    font-family: 'upright';
+    transition: all 0.4 ease;
+}
+
+.navLine{
+    border: 1px solid #FFF;
+
+    width: calc(100% - 150px);
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logoP{
+    font-size: 20px;
+    font-family: "upright";
+    font-weight: 900;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.black{
+    color: #000;
+    transition: all 0.4 ease;
+}
+
+.dashboardLogo{
+    font-size: 20px;
+    font-family: "upright";
+    color: #000;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.burgerMenu{
+    display: none;
+}
+
+.dashboard, 
+.dashboardActive{
+    display: none;
+}
+
+@media (min-width:1900px) {
+    .navbar{
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+
+    .navLine{
+    
+        width: calc(100% - 700px);
+    }
+}
+
+@media (max-width:769px) {
+    .navbar{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .menu{
+        display: none;
+    }
+    .navLine{
+        width: calc(100% - 40px);
+    }
+    .burgerMenu{
+        display: block;
+    }
+    .burgerMenuIcon{
+        width: 20px;
+        cursor: pointer;
+    }
+    .burgerMenuIconDeactive{
+        width: 32px;
+        cursor: pointer;
+        display: none;
+    }
+    .dashboard{
+        width: 80%;
+        height: 100%;
+        display: block;
+        position: fixed;
+        z-index: 5;
+        left: -80%;
+        background-color: #FFF;
+
+        transition: all 0.4s ease;
+    }
+
+    .dashboardActive{
+        display: block;
+        width: 80%;
+        left: 0;
+        transition: all 0.4s ease;
+    }
+
+    .closeIconDiv{
+        width: 100%;
+        height: 90px;
+        box-sizing: border-box;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .closeIcon{
+        width: 20px;
+        cursor: pointer;
+    }
+
+    .dashboardLinks{
+        color: #000;
+        text-transform: uppercase;
+        font-family: 'upright';
+    }
+
+    .dashboardMenu{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 20px;
+    }
 }

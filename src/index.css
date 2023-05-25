@@ -1,3 +1,20 @@
+@font-face {
+  font-family: 'commorant';
+  src: url('./components/fonts/cormorant.ttf');
+}
+
+@font-face {
+  font-family: 'monserat';
+  src: url('./components/fonts/montserrat.ttf');
+}
+
+
+@font-face {
+  font-family: 'upright';
+  src: url('./components/fonts/upright.ttf');
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,7 +22,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  overflow-x: hidden;
   width: 100%;
 }
 

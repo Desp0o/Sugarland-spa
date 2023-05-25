@@ -2,19 +2,25 @@ import { useState, useEffect } from "react"
 
 import "./mainSlider.css"
 
-import lomiLomiMassage from '../images/lomilomiMassage.jpg'
-import thaiMassage from '../images/thaiMassage.jpg'
+import mainImage from '../images/mainImage.webp'
+import deepTissue from '../images/deepTissue.webp'
+import bodyScrub from '../images/bodyScrub.webp'
 
 const sliderArr = [
     {
-        image: `${lomiLomiMassage}`,
+        image: `${mainImage}`,
         alt: 'bla1'
 
     },
 
     {
-        image: `${thaiMassage}`,
+        image: `${deepTissue}`,
         alt: 'bla2'
+    },
+
+    {
+        image: `${bodyScrub}`,
+        alt: 'bla3'
     }
 ]
 
@@ -51,12 +57,7 @@ export default function MainSlider() {
 
                     index === slideIndex ? sliderimg = 'sliderIMG sliderIMG_active' : sliderimg = 'sliderIMG'
                     index === overlay    ? overlay   = 'overlayImageDeactive' : overlay = 'overlayImage'
-
-
-                    if (index === 1) {
-                        sliderimg = 'sliderIMG sliderIMG_active'
-                    }
-
+                    
                     return (
                         <div className="sliderWrapper" key={slideIndex}>
                             <div className={overlay} />
