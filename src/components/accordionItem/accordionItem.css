@@ -1,0 +1,38 @@
+
+.accordionItem{
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    border: 1px solid #00000010;
+    margin-top: 20px;
+}
+
+.accordionQuestion{
+    box-sizing: border-box;
+    font-family: 'monserat';
+    text-transform: capitalize;
+    font-weight: 600;
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+    background-color: #00000010;
+}
+
+.accordionAnswer{
+    width: 100%;
+    text-transform: capitalize;
+    font-family: 'monserat';
+    box-sizing: border-box;
+    height: 0;
+    width: 100%;
+    padding: 0 30px 0 30px;
+    transition: all 0.2s ease-out;
+    overflow: hidden;
+}
+
+.accordionAnswerActive{
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+    transition: all 0.2s ease-out;
+}

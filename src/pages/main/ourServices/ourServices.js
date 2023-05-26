@@ -13,12 +13,11 @@ export default function OurServices(){
                     <MassageSlider />
                 </div>
 
-                <div className="serviceBTN">
-                    <Link to='/pages/services/services'>
-                        <p>See More</p>
-                    </Link>
-                    
-                </div>
+                <Link to='/pages/services/services'>
+                    <div className="serviceBTN">
+                            <p>See More</p>
+                    </div>
+                </Link>
             </div>
         
         </>

@@ -2,8 +2,8 @@
     box-sizing: border-box;
     width: 100%;
     height: fit-content;
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .swiper {
@@ -81,4 +81,11 @@
         text-transform: uppercase;
         color: rgb(0, 0, 0);
       }
+  }
+
+  @media (min-width:1900px) {
+    .sliderContainer{
+      padding-left: 350px;
+      padding-right: 350px;
+  }
   }
