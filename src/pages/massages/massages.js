@@ -38,9 +38,9 @@ export default function Massages(){
 
             {massage.description.list.listHeader2 ? <h4>{massage.description.list.listHeader2}</h4> : ''}
             {massage.description.list.listParagraph2 ? <p>{massage.description.list.listParagraph2}</p> : ''}
-            {massage.description.list.listParagraphInner1? <p>{massage.description.list.listParagraphInner1}</p> : ''}
-            {massage.description.list.listParagraphInner2? <p>{massage.description.list.listParagraphInner2}</p> : ''}
-            {massage.description.list.listParagraphInner3? <p>{massage.description.list.listParagraphInner3}</p> : ''}
+            {massage.description.list.listParagraphInner1 ? <p>{massage.description.list.listParagraphInner1}</p> : ''}
+            {massage.description.list.listParagraphInner2 ? <p>{massage.description.list.listParagraphInner2}</p> : ''}
+            {massage.description.list.listParagraphInner3 ? <p>{massage.description.list.listParagraphInner3}</p> : ''}
 
             {massage.description.list.listHeader3 ? <h4>{massage.description.list.listHeader3}</h4> : ''}
             {massage.description.list.listParagraph3 ? <p>{massage.description.list.listParagraph3}</p> : ''}
@@ -52,7 +52,13 @@ export default function Massages(){
             {massage.description.list.listParagraph5 ? <p>{massage.description.list.listParagraph5}</p> : ''}
 
             {massage.description.list.listHeader6 ? <h4>{massage.description.list.listHeader6}</h4> : ''}
-            {massage.description.list.listParagraph6 ? <p>{massage.description.list.listParagraph6}</p> : ''}
+            {massage.description.list.listHeader7 ? <h4>{massage.description.list.listHeader7}</h4> : ''}
+
+            {massage.description.list.listHeader6 ? <h4>{massage.description.list.listHeader6}</h4> : ''}
+            {massage.description.list.listHeader7 ? <h4>{massage.description.list.listHeader7}</h4> : ''}
+            
+            
+            
 
             {massage.description.paragraph6 ? <p>{massage.description.paragraph6}</p> : ''}
         </div>
