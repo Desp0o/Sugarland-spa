@@ -41,3 +41,7 @@ a{
   text-decoration: none;
   width: fit-content;
 }
+
+li{
+  list-style: none;
+}

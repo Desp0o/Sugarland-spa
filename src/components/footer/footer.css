@@ -1,0 +1,99 @@
+.footer{
+    position: relative;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    padding: 40px 120px 20px 120px;
+
+    background-color: #00000010;
+}
+
+.footerInner{
+    width: 100%;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 40px;
+}
+
+.footerHeader{
+    font-family: 'monserat';
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.aboutUs,
+.contactUs,
+.workingHours{
+    width: 300px;
+}
+
+
+.aboutUs h2,
+.contactUs h2,
+.workingHours h2
+{
+    font-family: 'monserat';
+    margin-bottom: 20px;
+}
+
+.aboutUs p,
+.contactUs p,
+.workingHours p{
+    font-family: 'monserat';
+}
+
+.rights{
+
+    font-size: 10px;
+    text-align: center;
+}
+
+
+@media (max-width:769px) {
+    .footer{
+        padding: 50px 20px 20px 20px;
+    }
+
+    .footerHeader{
+        font-family: 'monserat';
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .footerInner{
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+    
+        padding-top: 20px;
+    }
+
+    .aboutUs,
+    .contactUs,
+    .workingHours{
+        width: 100%;
+    }
+
+    .aboutUs h2,
+    .contactUs h2,
+    .workingHours h2
+    {
+        font-family: 'monserat';
+        margin-bottom: 0px;
+        margin-top: 20px;
+        font-size: 19px;
+    }
+
+    
+}
+
+@media (min-width:1900px) {
+    .footer{
+        padding: 40px 350px 80px 350px;
+    }
+}
