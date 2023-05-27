@@ -1,6 +1,8 @@
 .massageBody{
-    margin-top: 170px;
-    padding: 0 75px;
+    padding: 150px 120px 50px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .massagebodyCover{
@@ -11,10 +13,39 @@
     object-position: center;
 }
 
+.massageBody h1{
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'monserat';
+}
+
+.massageBody p{
+    font-family: 'monserat';
+}
+
+.massageBody h2{
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'monserat';
+}
+
+.massageBody h4{
+    margin-top: 40px;
+    text-align: left;
+    font-family: 'monserat';
+}
+
+.massageBody ul{
+    margin-left: 20px;
+}
+
+.massageBody li{
+    list-style: inside;
+}
 
 @media (min-width:1900px) {
     .massageBody{
-       padding: 0 350px;
+        padding: 0 350px 50px 350px;
     }
 
     .massagebodyCover{
@@ -23,5 +54,11 @@
     
         object-fit: cover;
         object-position: center;
+    }
+}
+
+@media (max-width:769px) {
+    .massageBody{
+        padding: 120px 20px 50px 20px;
     }
 }
