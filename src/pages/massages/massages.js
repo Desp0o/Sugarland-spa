@@ -17,7 +17,7 @@ export default function Massages(){
             logoColor='logoP black'
         />
         <div className="massageBody">
-            <img className="massagebodyCover" src={massage.image} alt="massage body cover image"/>
+            <img className="massagebodyCover" src={massage.image} alt="massage body cover"/>
             <p>{massageList[id].name}</p>
             {massage.description.paragraph1 ? <p>{massage.description.paragraph1}</p> : ''}
             {massage.description.paragraph2 ? <p>{massage.description.paragraph2}</p> : ''}

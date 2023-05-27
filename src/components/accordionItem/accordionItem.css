@@ -1,10 +1,15 @@
 
+.accordionContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .accordionItem{
     box-sizing: border-box;
     width: 100%;
     height: fit-content;
     border: 1px solid #00000010;
-    margin-top: 20px;
 }
 
 .accordionQuestion{
@@ -25,7 +30,7 @@
     height: 0;
     width: 100%;
     padding: 0 30px 0 30px;
-    transition: all 0.2s ease-out;
+    transition: all 0.2s ease;
     overflow: hidden;
 }
 
@@ -34,5 +39,4 @@
     height: fit-content;
     box-sizing: border-box;
     padding: 30px 30px 30px 30px;
-    transition: all 0.2s ease-out;
 }

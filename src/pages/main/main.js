@@ -5,11 +5,13 @@ import Navbar from '../../components/navbar/navbar'
 import OurServices from "./ourServices/ourServices";
 import FAQ from "./FAQ/FAQ";
 
+import burgerWhite from '../../components/images/burgerMenu.webp'
+import burgerBlack from '../../components/images/burgerMenuBlack.webp'
 
 export default function Home(){
     return(
         <>
-        <Navbar />
+        <Navbar burgerWhite={burgerWhite} burgerBlack={burgerBlack}/>
         <MainSlider />
         <MainTxt />
         <SectionSecond />

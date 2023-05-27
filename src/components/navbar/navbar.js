@@ -5,26 +5,24 @@ import { Link } from 'react-router-dom'
 import './navbar.css'
 
 import burgerMenu from '../images/burgerMenu.webp'
-import burgerMenuBlack from '../images/burgerMenuBlack.webp'
 import closeBtn from '../images/close.webp'
+import logoWhite from '../images/logoWhite.png' 
+import logoblack from '../images/logoblack.png' 
 
 export default function Navbar(props){
-    const [hamburgerMenu, setHamburgerMenu] = useState(burgerMenu) //hambugerMenu icon
+    const [hamburgerMenu, setHamburgerMenu] = useState(`${props.firstLoad ? props.firstLoad : burgerMenu }`) //hambugerMenu icon
     const [navbar, setNavbar] = useState('navbar')
     const [logoP, setLogoP] = useState('logoP')
     const [menuColor, setMenuColor] = useState('navMenuLinks')
     const [menuIcon, setMenuIcon] = useState('burgerMenuIcon') //hambugerMenu class
     const [dashboard, setDashboard] = useState('dashboard')
-    const [isOpened, setIsOpened] = useState(false)
 
     const burgerHandler = ()=> {
-        setIsOpened(true)
         setMenuIcon('burgerMenuIconDeactive')
         setDashboard('dashboard dashboardActive') 
     }
 
     const closeHandler = ()=> {
-        setIsOpened(false)
         setMenuIcon('burgerMenuIcon')
         setDashboard('dashboard')
     }
@@ -38,7 +36,7 @@ export default function Navbar(props){
                 setLogoP('logoP black')
     
                 if (window.innerWidth < 769) {
-                    setHamburgerMenu(burgerMenuBlack)
+                    setHamburgerMenu(props.burgerBlack)
                   }
                   
               }
@@ -49,7 +47,7 @@ export default function Navbar(props){
                 setLogoP('logoP')
     
                 if (window.innerWidth < 769) {
-                    setHamburgerMenu(burgerMenu)
+                    setHamburgerMenu(props.burgerWhite)
                   }
             }
     
@@ -60,7 +58,10 @@ export default function Navbar(props){
         <>
             <div className={props.bg ? props.bg : navbar}>
                 <Link to='/'>
-                    <div className='logo'><p className={props.logoColor ? props.logoColor : logoP}>Sugarland Spa</p></div>
+                    <div className='logo'>
+                        {/* <p className={props.logoColor ? props.logoColor : logoP}>Sugarland Spa</p> */}
+                        <img src={logoblack} />
+                    </div>
                 </Link>
 
                 <div className='menu'>

@@ -20,31 +20,31 @@ export default function AccordionItem(){
 
     return(
         <>
+            <div className="accordionContainer">
+                {
+                    accordionItems.map((accordion, index) => {
+                        return(
+                                <div className="accordionItem" key={index} onClick={() => {
+                                        if(activeItem === index){
+                                            setActiveItem(null)
+                                        }else{
+                                            setActiveItem(index)
+                                        }
+                                    }}
+                                >
+                                    <div className="accordionQuestion">
+                                        <p>{accordion.title}</p>
+                                    </div>
 
-            {
-                accordionItems.map((accordion, index) => {
-                    return(
-                            <div className="accordionItem" key={index} onClick={() => {
-                                    if(activeItem === index){
-                                        setActiveItem(null)
-                                    }else{
-                                        setActiveItem(index)
-                                    }
-                                }}
-                            >
-                                <div className="accordionQuestion">
-                                    <p>{accordion.title}</p>
+                                    <div className={activeItem === index ? "accordionAnswer accordionAnswerActive" : "accordionAnswer"}>
+                                    <p>{accordion.content}</p>
+                                    </div>
                                 </div>
+                        )
+                    })
+                }
 
-                                <div className={activeItem === index ? "accordionAnswer accordionAnswerActive" : "accordionAnswer"}>
-                                <p>{accordion.content}</p>
-                                </div>
-                            </div>
-                    )
-                })
-            }
-
-            
+            </div>
         </>
     )
 }

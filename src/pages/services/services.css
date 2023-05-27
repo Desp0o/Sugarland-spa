@@ -2,7 +2,7 @@
     box-sizing: border-box;
     width: 100%;
     padding: 170px 75px 80px 75px;
-
+    overflow-x: hidden;
 }
 
 .thirdHeader{
@@ -34,6 +34,9 @@
 .massageCardImg{
     height: 300px;
     width: 450px;
+
+    object-fit: cover;
+    object-position: center;
 }
 
 .massageCardDesc{
@@ -74,5 +77,36 @@
         box-sizing: border-box;
         width: 100%;
         padding: 170px 350px 80px 350px;
+    }
+}
+
+@media (max-width:769px) {
+    .Services{
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+
+    .massages{
+        margin-top: 50px;
+    }
+
+    .massageCard{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .massageCardImg{
+        height: 200px;
+        width: 100%;
+    }
+
+    .massageCardDesc{
+        gap: 20px;
+    }
+
+    .shortDescr{
+        width: 100%;
     }
 }

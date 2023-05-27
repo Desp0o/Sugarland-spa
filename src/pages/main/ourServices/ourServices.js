@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 import MassageSlider from "../../../components/massageSlider/massageSlider"
 import "./ourServices.css"
-import flower from "../../../components/images/132.png"
 
 export default function OurServices(){
     return(
