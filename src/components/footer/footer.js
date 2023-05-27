@@ -28,9 +28,7 @@ export default function Footer(){
                     <div className="contactUs">
                         <h2>Contact</h2>
                         <p>T:</p>
-                        <p>M:</p>
                         <p>Email:</p>
-                        <p>Adress:</p>
                     </div>
                 </div>
 

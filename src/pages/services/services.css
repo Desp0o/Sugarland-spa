@@ -1,7 +1,7 @@
 .Services{
     box-sizing: border-box;
     width: 100%;
-    padding: 170px 75px 80px 75px;
+    padding: 170px 120px 80px 120px;
     overflow-x: hidden;
 }
 
@@ -37,6 +37,7 @@
 
     object-fit: cover;
     object-position: center;
+    border: 1px solid var(--secondColor);
 }
 
 .massageCardDesc{

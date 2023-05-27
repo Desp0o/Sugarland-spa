@@ -24,7 +24,7 @@
 }
 
 .whiteBG{
-    background-color: #FFF;
+    background-color: var(--color);
     transition: all 0.4s ease;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .navMenuLinks{
-    color: #fff;
+    color: var(--color);
     font-weight: 600;
     text-transform: uppercase;
     font-family: 'upright';
@@ -45,14 +45,20 @@
 }
 
 .navLine{
-    border: 1px solid #FFF;
+    border: 1px solid var(--color);
 
     width: calc(100% - 240px);
-
+    opacity: 1;
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    transition: all 0.4s ease;
+}
+
+.navLineZero{
+    opacity: 0;
+    transition: all 0.4s ease;
 }
 
 .logoP{
@@ -115,7 +121,7 @@
         display: block;
     }
     .burgerMenuIcon{
-        width: 20px;
+        width: 30px;
         cursor: pointer;
     }
     .burgerMenuIconDeactive{
@@ -160,11 +166,18 @@
         cursor: pointer;
     }
 
-    .dashboardLinks{
-        color: #000;
+    .dashboardLinks, .workingHoursNavbar, .contactUsNavbar{
+        color: var(--secondColor);
         text-transform: uppercase;
         font-family: 'upright';
     }
+
+    .workingHoursNavbar, .contactUsNavbar{
+        padding-left: 20px;
+        margin-top: 30px;
+    }
+
+
 
     .dashboardMenu{
         display: flex;

@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import './navbar.css'
 
 import burgerMenu from '../images/burgerMenu.webp'
+// import burgerMenu from '../images/burgerMenu.png'
 import closeBtn from '../images/close.webp'
 import logoWhite from '../images/logoWhite.png' 
 import logoblack from '../images/logoblack.png' 
@@ -12,6 +13,7 @@ import logoblack from '../images/logoblack.png'
 export default function Navbar(props){
     const [hamburgerMenu, setHamburgerMenu] = useState(`${props.firstLoad ? props.firstLoad : burgerMenu }`) //hambugerMenu icon
     const [navbar, setNavbar] = useState('navbar')
+    const [navLine, setNavLine] = useState('navLine')
     const [logoP, setLogoP] = useState('logoP')
     const [menuColor, setMenuColor] = useState('navMenuLinks')
     const [menuIcon, setMenuIcon] = useState('burgerMenuIcon') //hambugerMenu class
@@ -34,7 +36,7 @@ export default function Navbar(props){
                 setNavbar('navbar whiteBG')
                 setMenuColor("navMenuLinks black")
                 setLogoP('logoP black')
-    
+                setNavLine('navLine navLineZero')
                 if (window.innerWidth < 769) {
                     setHamburgerMenu(props.burgerBlack)
                   }
@@ -45,7 +47,7 @@ export default function Navbar(props){
                 setNavbar('navbar')
                 setMenuColor("navMenuLinks")
                 setLogoP('logoP')
-    
+                setNavLine('navLine')
                 if (window.innerWidth < 769) {
                     setHamburgerMenu(props.burgerWhite)
                   }
@@ -75,7 +77,7 @@ export default function Navbar(props){
                     <img className={menuIcon} src={hamburgerMenu} alt='burger menu open icon'/>
                 </div>
 
-                <div className='navLine' />
+                <div className={navLine} />
             </div>
 
             <div className={dashboard}>
@@ -91,6 +93,18 @@ export default function Navbar(props){
                     <Link to='/pages/services/services' className='dashboardLinks'>services</Link>
                     <Link to='/' className='dashboardLinks'>contact</Link>
                 </div>
+
+                <div className="workingHoursNavbar">
+                        <h3>Working Hours</h3>
+                        <p>Monday - Sunday</p>
+                        <p>6AM - Midnight</p>
+                    </div>
+
+                    <div className="contactUsNavbar">
+                        <h3>Contact</h3>
+                        <p>T:</p>
+                        <p>Email:</p>
+                    </div>
             </div>
         </>
     )

@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import { HashRouter as Router } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
+import ScrollToTop from './ScrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <Router>
+  <ScrollToTop />
     <React.StrictMode>
         <App />
     </React.StrictMode>

@@ -11,7 +11,7 @@
     font-size: 20px;
     font-family: "monserat";
     font-weight: 100;
-    color: #FFF;
+    color: var(--color);
     text-transform: capitalize;
 }
 
@@ -22,14 +22,14 @@
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: center;
-    color: #FFF;
+    color: var(--color);
 }
 
 .mainBTN{
     width: 150px;
     height: 45px;
     
-    border: 1px solid #E7EAE3;
+    border: 1px solid var(--color);
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -46,7 +46,7 @@
 
 .mainBTN p{
     font-family: 'monserat';
-    color: #FFF;
+    color: var(--color);
     font-size: 18px;
     letter-spacing: 2px;
     transition: all 0.4s ease;

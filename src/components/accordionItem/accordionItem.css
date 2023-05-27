@@ -9,7 +9,7 @@
     box-sizing: border-box;
     width: 100%;
     height: fit-content;
-    border: 1px solid #00000010;
+    border: 1px solid var(--secondColor);
 
     cursor: pointer;
 }
@@ -21,7 +21,8 @@
     font-weight: 600;
     width: 100%;
     padding: 20px 30px 20px 30px;
-    background-color: #00000010;
+    /* border: 1px solid var(--secondColor); */
+    background-color: var(--color);
 }
 
 .accordionAnswer{
