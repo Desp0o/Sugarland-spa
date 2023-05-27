@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Sugarland-spa/static/css/main.ad3653c4.css",
+    "main.js": "/Sugarland-spa/static/js/main.c7e658b1.js",
+    "static/js/787.19651300.chunk.js": "/Sugarland-spa/static/js/787.19651300.chunk.js",
+    "static/media/mainImage.webp": "/Sugarland-spa/static/media/mainImage.ead187c99d693242a944.webp",
+    "static/media/thai.webp": "/Sugarland-spa/static/media/thai.4e6b170a5a6d8c7f56de.webp",
+    "static/media/fourHands.webp": "/Sugarland-spa/static/media/fourHands.4983ac4808d8df03dd92.webp",
+    "static/media/cormorant.ttf": "/Sugarland-spa/static/media/cormorant.3bdf834f4fb12e3c5d26.ttf",
+    "static/media/upright.ttf": "/Sugarland-spa/static/media/upright.458ae455932eb081183d.ttf",
+    "static/media/hotstone.webp": "/Sugarland-spa/static/media/hotstone.19aca3d6485dc4e3b514.webp",
+    "static/media/couples.webp": "/Sugarland-spa/static/media/couples.5dc2cc5f1139e08a755e.webp",
+    "static/media/montserrat.ttf": "/Sugarland-spa/static/media/montserrat.94bb495fba6077f669ed.ttf",
+    "static/media/bodyScrub.webp": "/Sugarland-spa/static/media/bodyScrub.deb3491c4eb81d138056.webp",
+    "static/media/deepTissue.webp": "/Sugarland-spa/static/media/deepTissue.05bb8165e3442bcff947.webp",
+    "static/media/swedish.webp": "/Sugarland-spa/static/media/swedish.c5e378727d0d91480085.webp",
+    "static/media/cups.webp": "/Sugarland-spa/static/media/cups.a5f3936f4d47e46f44e5.webp",
+    "static/media/lomilomi.webp": "/Sugarland-spa/static/media/lomilomi.1d2ce1bb7005eaeb6faf.webp",
+    "static/media/leaf4.webp": "/Sugarland-spa/static/media/leaf4.b32af5f492d890726dc9.webp",
+    "static/media/leaf2.webp": "/Sugarland-spa/static/media/leaf2.12c037678ce48f40bd78.webp",
+    "static/media/leaf1.webp": "/Sugarland-spa/static/media/leaf1.8ef0c96bc31f3da01de9.webp",
+    "static/media/leaf3.webp": "/Sugarland-spa/static/media/leaf3.ce5d6756dc7024179bf4.webp",
+    "static/media/logoWhite.png": "/Sugarland-spa/static/media/logoWhite.6e9cd7a1cf5d833f3795.png",
+    "static/media/logoblack.png": "/Sugarland-spa/static/media/logoblack.4062343a42c3746ef44b.png",
+    "index.html": "/Sugarland-spa/index.html",
+    "static/media/close.webp": "/Sugarland-spa/static/media/close.d7392977dc74fff6b49e.webp",
+    "static/media/burgerMenuBlack.webp": "/Sugarland-spa/static/media/burgerMenuBlack.88f538d172cdabad5158.webp",
+    "static/media/burgerMenu.webp": "/Sugarland-spa/static/media/burgerMenu.25b5f363dca7743c4fa7.webp",
+    "main.ad3653c4.css.map": "/Sugarland-spa/static/css/main.ad3653c4.css.map",
+    "main.c7e658b1.js.map": "/Sugarland-spa/static/js/main.c7e658b1.js.map",
+    "787.19651300.chunk.js.map": "/Sugarland-spa/static/js/787.19651300.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad3653c4.css",
+    "static/js/main.c7e658b1.js"
+  ]
+}
