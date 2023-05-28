@@ -3,7 +3,7 @@ import { massageList } from '../../components/dataBase'
 import { Link } from "react-router-dom";
 import Navbar from "../../components/navbar/navbar";
 
-import burgerWhite from '../../components/images/burgerMenu.webp'
+import logoBlack from '../../components/images/logoBlack.webp'
 import burgerBlack from '../../components/images/burgerMenuBlack.webp'
 
 export default function Services() {
@@ -13,7 +13,7 @@ export default function Services() {
             <Navbar
                 bg='navbar whiteBG'
                 navLinkColor='navMenuLinks black'
-                logoColor='logoP black'
+                logoColor={logoBlack}
                 burgerWhite={burgerBlack} 
                 burgerBlack={burgerBlack}
                 firstLoad={burgerBlack}

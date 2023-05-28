@@ -78,7 +78,7 @@
 .dashboardLogo{
     font-size: 20px;
     font-family: "upright";
-    color: #000;
+    color: #242925;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -110,7 +110,8 @@
         padding-right: 20px;
     }
     .logo img{
-        width: 80px;
+        width: 90px;
+        height: auto;
     }
     .menu{
         display: none;

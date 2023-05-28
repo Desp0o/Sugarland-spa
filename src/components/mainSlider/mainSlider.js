@@ -4,7 +4,7 @@ import "./mainSlider.css"
 
 import mainImage from '../images/mainImage.webp'
 import deepTissue from '../images/massages/deepTissue.webp'
-import bodyScrub from '../images/massages/bodyScrub.webp'
+import lomiLomi from '../../components/images/massages/lomilomi.webp'
 
 const sliderArr = [
     {
@@ -24,7 +24,7 @@ const sliderArr = [
     },
 
     {
-        image: `${bodyScrub}`,
+        image: `${lomiLomi}`,
         alt: 'main massage slider 3',
         header:'Sugarland Spa',
         text1:'Sugarland spa comes to you to provide the best service',

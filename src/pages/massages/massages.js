@@ -3,6 +3,7 @@ import { massageList } from "../../components/dataBase";
 import Navbar from "../../components/navbar/navbar";
 import "./massages.css"
 import burgerBlack from '../../components/images/burgerMenuBlack.webp'
+import logoBlack from '../../components/images/logoBlack.webp'
 
 export default function Massages(){
     const { id } = useParams();
@@ -15,7 +16,7 @@ export default function Massages(){
         <Navbar
                 bg='navbar whiteBG'
                 navLinkColor='navMenuLinks black'
-                logoColor='logoP black'
+                logoColor={logoBlack}
                 burgerWhite={burgerBlack} 
                 burgerBlack={burgerBlack}
                 firstLoad={burgerBlack}
