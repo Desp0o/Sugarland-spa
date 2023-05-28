@@ -9,7 +9,7 @@
     box-sizing: border-box;
     width: 100%;
     height: fit-content;
-    border: 1px solid var(--secondColor);
+    border: 1px solid #242925;
 
     cursor: pointer;
 }
@@ -22,7 +22,8 @@
     width: 100%;
     padding: 20px 30px 20px 30px;
     /* border: 1px solid var(--secondColor); */
-    background-color: var(--color);
+    background-color: #242925;
+    color: white;
 }
 
 .accordionAnswer{
@@ -35,6 +36,7 @@
     padding: 0 30px 0 30px;
     transition: all 0.2s ease;
     overflow: hidden;
+    color: #242925;
 }
 
 .accordionAnswerActive{

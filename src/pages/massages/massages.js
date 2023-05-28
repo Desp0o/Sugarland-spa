@@ -54,12 +54,6 @@ export default function Massages(){
             {massage.description.list.listHeader6 ? <h4>{massage.description.list.listHeader6}</h4> : ''}
             {massage.description.list.listHeader7 ? <h4>{massage.description.list.listHeader7}</h4> : ''}
 
-            {massage.description.list.listHeader6 ? <h4>{massage.description.list.listHeader6}</h4> : ''}
-            {massage.description.list.listHeader7 ? <h4>{massage.description.list.listHeader7}</h4> : ''}
-            
-            
-            
-
             {massage.description.paragraph6 ? <p>{massage.description.paragraph6}</p> : ''}
         </div>
         </>

@@ -21,10 +21,11 @@
 
 .logo img{
     width: 120px;
+    height: 73px;
 }
 
 .whiteBG{
-    background-color: var(--color);
+    background-color: #F3F4F2;
     transition: all 0.4s ease;
 }
 
@@ -37,7 +38,7 @@
 }
 
 .navMenuLinks{
-    color: var(--color);
+    color: #F3F4F2;
     font-weight: 600;
     text-transform: uppercase;
     font-family: 'upright';
@@ -45,7 +46,7 @@
 }
 
 .navLine{
-    border: 1px solid var(--color);
+    border: 1px solid #F3F4F2;
 
     width: calc(100% - 240px);
     opacity: 1;
@@ -70,7 +71,7 @@
 }
 
 .black{
-    color: #000;
+    color: #242925;
     transition: all 0.4 ease;
 }
 

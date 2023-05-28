@@ -1,6 +1,7 @@
 :root {
   --color: #BFB78F;
   --secondColor: #403D30;
+  --text: #535A4C;
 }
 
 *{
@@ -9,19 +10,16 @@
 }
 
 @font-face {
-  font-family: 'commorant';
-  src: url('./components/fonts/cormorant.ttf');
-}
-
-@font-face {
   font-family: 'monserat';
   src: url('./components/fonts/montserrat.ttf');
+  font-display: swap;
 }
 
 
 @font-face {
   font-family: 'upright';
   src: url('./components/fonts/upright.ttf');
+  font-display: swap;
 }
 
 
@@ -34,8 +32,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   width: 100%;
-color:var(--secondColor);
-background-color: #bfb78fe8;
+color:var(--text);
+background-color: #F3F4F2;
 }
 
 code {

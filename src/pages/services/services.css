@@ -6,6 +6,7 @@
 }
 
 .thirdHeader{
+    color: #242925;
     text-align: center;
     font-family: "upright";
     text-transform: uppercase;
@@ -37,7 +38,7 @@
 
     object-fit: cover;
     object-position: center;
-    border: 1px solid var(--secondColor);
+    border: 1px solid #242925;;
 }
 
 .massageCardDesc{
@@ -50,6 +51,7 @@
     width: 400px;
     font-family: 'monserat';
     font-size: 16px;
+    color: #242925;
 }
 
 .massageHeader{
@@ -60,7 +62,7 @@
     width: 150px;
     height: 45px;
     
-    border: 1px solid #000;
+    border: 1px solid #242925;
     font-family: 'monserat';
 
     display: flex;

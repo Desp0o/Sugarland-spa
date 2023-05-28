@@ -374,17 +374,7 @@ export const massageList =[
                 listHeader12:"",
                 listParagraph12:'',
                 listHeader13:"",
-                listParagraph13:'',
-                listHeader6:"",
-                listParagraph6:'',
-                listHeader6:"",
-                listParagraph6:'',
-                listHeader6:"",
-                listParagraph6:'',
-                listHeader6:"",
-                listParagraph6:'',
-                listHeader6:"",
-                listParagraph6:'',
+                listParagraph13:''
             },
             paragraph6:''
 

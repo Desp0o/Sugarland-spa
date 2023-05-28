@@ -1,4 +1,5 @@
 .OurServices{
+    padding-top: 80px;
     padding-bottom: 80px;
     position: relative;
     display: flex;
@@ -8,6 +9,7 @@
 
 
 .thirdHeader{
+    color: #242925;
     text-align: center;
     font-family: "upright";
     text-transform: uppercase;
@@ -17,7 +19,7 @@
     width: 150px;
     height: 45px;
     
-    border: 1px solid #000000;
+    border: 1px solid #242925;
     
 
     display: flex;
@@ -35,7 +37,7 @@
 
 .serviceBTN p{
     font-family: 'monserat';
-    color: #000000;
+    color: #242925;
     font-size: 18px;
     letter-spacing: 2px;
     transition: all 0.4s ease;

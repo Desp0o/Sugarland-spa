@@ -19,6 +19,10 @@ export default function Navbar(props){
     const [menuIcon, setMenuIcon] = useState('burgerMenuIcon') //hambugerMenu class
     const [dashboard, setDashboard] = useState('dashboard')
 
+    const handleButtonClick = () => {
+        window.location.href = `tel:555110002`;
+      };
+
     const burgerHandler = ()=> {
         setMenuIcon('burgerMenuIconDeactive')
         setDashboard('dashboard dashboardActive') 
@@ -62,15 +66,15 @@ export default function Navbar(props){
                 <Link to='/'>
                     <div className='logo'>
                         {/* <p className={props.logoColor ? props.logoColor : logoP}>Sugarland Spa</p> */}
-                        <img src={logoblack} />
+                        <img src={logoblack} alt='logo for spa'/>
                     </div>
                 </Link>
 
                 <div className='menu'>
                     <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>home</Link>
-                    <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>about</Link>
+                    {/* <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>about</Link> */}
                     <Link to='/pages/services/services' className={props.navLinkColor ? props.navLinkColor : menuColor}>services</Link>
-                    <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>contact</Link>
+                    <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor} onClick={handleButtonClick}>Call</Link>
                 </div>
 
                 <div className='burgerMenu' onClick={burgerHandler}>
@@ -89,9 +93,9 @@ export default function Navbar(props){
 
                 <div className='dashboardMenu'>
                     <Link to='/' className='dashboardLinks'>home</Link>
-                    <Link to='/' className='dashboardLinks'>about</Link>
+                    {/* <Link to='/' className='dashboardLinks'>about</Link> */}
                     <Link to='/pages/services/services' className='dashboardLinks'>services</Link>
-                    <Link to='/' className='dashboardLinks'>contact</Link>
+                    <Link to='/' className='dashboardLinks' onClick={handleButtonClick}>Call</Link>
                 </div>
 
                 <div className="workingHoursNavbar">

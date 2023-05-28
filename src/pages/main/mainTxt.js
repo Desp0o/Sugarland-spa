@@ -5,8 +5,9 @@ export default function MainTxt(){
     return(
         <div className="mainBgTexts">
             
-            <p className="SugarlandSpa">Sugarland Spa & Mobile massage therapy</p> 
-            <h1 className='LuxuryMassage'>Luxury massage at your place</h1>
+            <h1 className="SugarlandSpa">Sugarland Spa</h1> 
+            <p className="SugarlandSpa2">Mobile massage therapy </p> 
+            <p className='LuxuryMassage'>Luxury massage at your place</p>
 
             <Link to='/pages/services/services'>
                 <div className='mainBTN'>

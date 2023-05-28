@@ -7,16 +7,20 @@ import FAQ from "./FAQ/FAQ";
 
 import burgerWhite from '../../components/images/burgerMenu.webp'
 import burgerBlack from '../../components/images/burgerMenuBlack.webp'
+import React from "react";
 
-export default function Home(){
+
+const  Home = ()=>{
     return(
         <>
         <Navbar burgerWhite={burgerWhite} burgerBlack={burgerBlack}/>
         <MainSlider />
-        <MainTxt />
-        <SectionSecond />
+        {/* <MainTxt /> */}
         <OurServices />
         <FAQ />
+        <SectionSecond />
         </>
     )
 }
+
+export default Home;

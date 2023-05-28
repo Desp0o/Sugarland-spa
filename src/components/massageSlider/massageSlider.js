@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 import "./massageSlider.css";
 
 
-export default function MassageSlider() {
+const MassageSlider = ()=> {
     const [slideNumber, setSlideNumber] = useState('3')
 
     useEffect(()=>{
@@ -37,7 +37,7 @@ export default function MassageSlider() {
                                 <SwiperSlide key={slide.id}>
                                     <Link to={`/pages/massages/massages/${slide.id}`}>
                                         <img src={slide.image} alt="massage slider"/>
-                                        <h3 
+                                        <h5 
                                             className={
                                                 slide.name === "Ashiatsu barefoot massage" ||
                                                 slide.name ===  "Wood therapy massage" ||
@@ -46,7 +46,7 @@ export default function MassageSlider() {
                                             }
                                         >
                                             {slide.name}
-                                        </h3>
+                                        </h5>
                                     </Link>
                                 </SwiperSlide>
                             )
@@ -58,3 +58,6 @@ export default function MassageSlider() {
         </>
     );
 }
+
+
+export default MassageSlider
