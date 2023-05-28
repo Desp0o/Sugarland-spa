@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sugarland-spa/static/css/main.7fa0f08f.css",
-    "main.js": "/Sugarland-spa/static/js/main.9a44151d.js",
+    "main.css": "/Sugarland-spa/static/css/main.13ba153a.css",
+    "main.js": "/Sugarland-spa/static/js/main.43ec895e.js",
     "static/js/787.9a730df3.chunk.js": "/Sugarland-spa/static/js/787.9a730df3.chunk.js",
     "static/media/fourHands.webp": "/Sugarland-spa/static/media/fourHands.25955b732cae3cd2a66f.webp",
     "static/media/upright.ttf": "/Sugarland-spa/static/media/upright.458ae455932eb081183d.ttf",
@@ -25,12 +25,12 @@
     "static/media/close.webp": "/Sugarland-spa/static/media/close.d7392977dc74fff6b49e.webp",
     "static/media/burgerMenu.webp": "/Sugarland-spa/static/media/burgerMenu.38dd4a99c37912b9b6ff.webp",
     "static/media/burgerMenuBlack.webp": "/Sugarland-spa/static/media/burgerMenuBlack.3cd43a8c256fb0482a2d.webp",
-    "main.7fa0f08f.css.map": "/Sugarland-spa/static/css/main.7fa0f08f.css.map",
-    "main.9a44151d.js.map": "/Sugarland-spa/static/js/main.9a44151d.js.map",
+    "main.13ba153a.css.map": "/Sugarland-spa/static/css/main.13ba153a.css.map",
+    "main.43ec895e.js.map": "/Sugarland-spa/static/js/main.43ec895e.js.map",
     "787.9a730df3.chunk.js.map": "/Sugarland-spa/static/js/787.9a730df3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fa0f08f.css",
-    "static/js/main.9a44151d.js"
+    "static/css/main.13ba153a.css",
+    "static/js/main.43ec895e.js"
   ]
 }
