@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Sugarland-spa/static/css/main.13ba153a.css",
+    "main.css": "/Sugarland-spa/static/css/main.08446861.css",
     "main.js": "/Sugarland-spa/static/js/main.43ec895e.js",
     "static/js/787.9a730df3.chunk.js": "/Sugarland-spa/static/js/787.9a730df3.chunk.js",
     "static/media/fourHands.webp": "/Sugarland-spa/static/media/fourHands.25955b732cae3cd2a66f.webp",
@@ -25,12 +25,12 @@
     "static/media/close.webp": "/Sugarland-spa/static/media/close.d7392977dc74fff6b49e.webp",
     "static/media/burgerMenu.webp": "/Sugarland-spa/static/media/burgerMenu.38dd4a99c37912b9b6ff.webp",
     "static/media/burgerMenuBlack.webp": "/Sugarland-spa/static/media/burgerMenuBlack.3cd43a8c256fb0482a2d.webp",
-    "main.13ba153a.css.map": "/Sugarland-spa/static/css/main.13ba153a.css.map",
+    "main.08446861.css.map": "/Sugarland-spa/static/css/main.08446861.css.map",
     "main.43ec895e.js.map": "/Sugarland-spa/static/js/main.43ec895e.js.map",
     "787.9a730df3.chunk.js.map": "/Sugarland-spa/static/js/787.9a730df3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13ba153a.css",
+    "static/css/main.08446861.css",
     "static/js/main.43ec895e.js"
   ]
 }
