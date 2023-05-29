@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Sugarland Spa",
+  "name": "Sugarland Spa Mobile Massage Therapy",
+  "description":"Sugarland Spa Mobile Massage Therapy, Luxury massage at your place, We will bring high quality spa services at your place, Sugarland spa comes to you to provide the best service",
   "icons": [
     {
       "src": "favicon.ico",
