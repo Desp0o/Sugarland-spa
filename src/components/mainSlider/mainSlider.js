@@ -12,7 +12,8 @@ const sliderArr = [
         alt: 'main massage slider 1',
         header:'Sugarland Spa',
         text1:'Mobile massage therapy',
-        text2: 'Luxury massage at your place'
+        text2: '',
+        text3: 'Luxury massage at your place'
     },
 
     {
@@ -20,7 +21,8 @@ const sliderArr = [
         alt: 'main massage slider 2',
         header:'Sugarland Spa',
         text1:'We will bring high quality spa services at your place',
-        text2: 'All you need to give us call'
+        text2: 'All you need to give us call',
+        text3: ''
     },
 
     {
@@ -28,7 +30,8 @@ const sliderArr = [
         alt: 'main massage slider 3',
         header:'Sugarland Spa',
         text1:'Sugarland spa comes to you to provide the best service',
-        text2: ''
+        text2: '',
+        text3: ''
     }
 ]
 
@@ -64,11 +67,13 @@ export default function MainSlider() {
                     let SugarlandSpa = 'SugarlandSpa'
                     let SugarlandSpa2 = 'SugarlandSpa2'
                     let LuxuryMassage = 'LuxuryMassage'
+                    let marginText = 'LuxuryMassageMargin'
 
                     index === slideIndex ? sliderimg = 'sliderIMG sliderIMG_active' : sliderimg = 'sliderIMG'
                     index === slideIndex ? SugarlandSpa = 'SugarlandSpa' : SugarlandSpa = 'SugarlandSpa opacity0'
                     index === slideIndex ? SugarlandSpa2 = 'SugarlandSpa2' : SugarlandSpa2 = 'SugarlandSpa2 opacity0'
                     index === slideIndex ? LuxuryMassage = 'LuxuryMassage' : LuxuryMassage = 'LuxuryMassage opacity0'
+                    index === slideIndex ? marginText = 'LuxuryMassageMargin' : LuxuryMassage = 'LuxuryMassageMargin opacity0'
                     
                     return (
                         <div className="sliderWrapper" key={slideIndex}>
@@ -80,6 +85,7 @@ export default function MainSlider() {
                                 <h1 className={SugarlandSpa}>{item.header}</h1> 
                                 <p className={SugarlandSpa2}>{item.text1}</p> 
                                 <p className={LuxuryMassage}>{item.text2}</p>
+                                <p className={marginText}>{item.text3}</p>
 
                                 
                             </div>
