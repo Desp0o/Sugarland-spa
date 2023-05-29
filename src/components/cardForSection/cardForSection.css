@@ -15,9 +15,7 @@
     position: absolute;
     z-index: -1;
     width: 100%;
-    opacity: 0.2;
-    filter: grayscale(1);
-    
+    opacity: 1;
 }
 
 .cardSmallTitle{
@@ -25,11 +23,13 @@
     font-family: "monserat";
     font-weight: 600;
     font-size: 20px;
+    color: white;
 }
 
 .cardSmallDescription{
     text-align: center;
     font-family: "monserat";
     font-size: 16px;
+    color: white;
 }
 

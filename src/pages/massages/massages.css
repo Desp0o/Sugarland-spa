@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    color: white;
 }
 
 .massagebodyCover{
@@ -17,26 +18,22 @@
     margin-top: 40px;
     text-align: center;
     font-family: 'monserat';
-    color: #242925;
 }
 
 .massageBody p{
     font-family: 'monserat';
-    color: #242925;
 }
 
 .massageBody h2{
     margin-top: 40px;
     text-align: center;
     font-family: 'monserat';
-    color: #242925;
 }
 
 .massageBody h4{
     margin-top: 40px;
     text-align: left;
     font-family: 'monserat';
-    color: #242925;
 }
 
 .massageBody ul{
@@ -49,7 +46,7 @@
 
 @media (min-width:1900px) {
     .massageBody{
-        padding: 0 350px 50px 350px;
+        padding: 190პხ 350px 50px 350px;
     }
 
     .massagebodyCover{

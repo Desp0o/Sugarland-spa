@@ -9,17 +9,18 @@
 
 
 .thirdHeader{
-    color: #242925;
+    /* color: #242925; */
     text-align: center;
     font-family: "upright";
     text-transform: uppercase;
+    color: white !important;
 }
 
 .serviceBTN{
     width: 150px;
     height: 45px;
     
-    border: 1px solid #242925;
+    border: 1px solid white;
     
 
     display: flex;
@@ -37,7 +38,7 @@
 
 .serviceBTN p{
     font-family: 'monserat';
-    color: #242925;
+    color: white;
     font-size: 18px;
     letter-spacing: 2px;
     transition: all 0.4s ease;

@@ -2,11 +2,16 @@ import deepTissue from './images/massages/deepTissue.webp'
 import bodyScrub from './images/massages/bodyScrub.webp'
 import swedish from './images/massages/swedish.webp'
 import thai from './images/massages/thai.webp'
-import couples from './images/massages/couples.webp'
+import couples from './images/massages/CoupleMassage.webp'
 import cups from './images/massages/cups.webp'
 import fourHands from "./images/massages/fourHands.webp"
 import hotStone from './images/massages/hotstone.webp'
 import lomilomi from './images/massages/lomilomi.webp'
+import ashiatsu from '../components/images/massages/ashiatsu.webp'
+import prenatal from '../components/images/massages/prenatal.webp'
+import woody from '../components/images/massages/Wood.webp'
+import honey from '../components/images/massages/Honey.webp'
+import lymphatic from '../components/images/massages/LymphaticDrainage.webp'
 
 export const massageList =[
     {
@@ -83,7 +88,7 @@ export const massageList =[
 
     {
         id:2,
-        image:`${swedish}`,
+        image:`${ashiatsu}`,
         name:"Ashiatsu barefoot massage",
         shortDescription:"Ashiatsu barefoot massage is performed on a standard massage table that additionally has ceiling-mounted bars for the therapist holds on to for balance and control during the treatment. Oil or lotion is used to enhance the client’s experience.",
         description:{
@@ -190,7 +195,7 @@ export const massageList =[
 
     {
         id:5,
-        image:`${swedish}`,
+        image:`${prenatal}`,
         name:"Pranatal massage",
         shortDescription:"Prenatal massage is a type that's similar to regular massage – it aims to relax tense muscles, ease sore spots, improve circulation and mobility, and just make you feel good. But prenatal massage is also customized to the needs of pregnant women and their changing bodies, and therapists trained in prenatal massage adjust their techniques accordingly.",
         description:{
@@ -334,7 +339,7 @@ export const massageList =[
 
     {
         id:9,
-        image:`${swedish}`,
+        image:`${woody}`,
         name:"Wood therapy massage",
         shortDescription:"Wood therapy, also called maderotherapy or maderoterapia, is a form of massage that uses various hand-held wooden tools. Practitioners of wood therapy claim that it has benefits such as breaking down fat and cellulite, promoting blood circulation, smoothing the skin, and reducing stress.",
         description:{
@@ -384,7 +389,7 @@ export const massageList =[
 
     {
         id:10,
-        image:`${swedish}`,
+        image:`${honey}`,
         name:"Honey massage",
         shortDescription:"Honey massage is one of the massage types originating in ancient Tibet. Honey is used in this massage as a sticky substance that can pull out the “polluted” energy from the body and, by infiltrating the skin, supply the organism with its fantastic healing properties",
         description:{
@@ -456,7 +461,7 @@ export const massageList =[
 
     {
         id:12,
-        image:`${swedish}`,
+        image:`${lymphatic}`,
         name:"Lymphatic drainage massage",
         shortDescription:"Lymphatic drainage massage, also known as manual lymphatic drainage, relieves swelling that happens when medical treatment or illness blocks your lymphatic system. Lymphatic drainage massage involves gently manipulating specific areas of your body to help lymph move to an area with working lymph vessels.",
         description:{

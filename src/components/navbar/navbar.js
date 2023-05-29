@@ -19,7 +19,7 @@ export default function Navbar(props){
     const [dashboard, setDashboard] = useState('dashboard')
 
     const handleButtonClick = () => {
-        window.location.href = `tel:555110002`;
+        window.location.href = `tel:786 414 4947`;
       };
 
     const burgerHandler = ()=> {

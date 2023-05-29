@@ -61,8 +61,8 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(60%);
-    border: 1px solid var(--text);
+    filter: brightness(80%);
+    border: 1px solid #595959;
   }
 
 

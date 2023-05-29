@@ -5,7 +5,7 @@ export default function Footer(){
         <>
             <div className="footer">
 
-                <h1 className="footerHeader">Sugarland Spa & Mobile Massage Therapy</h1>
+                <h1 className="footerHeader">Sugarland Spa Mobile Massage Therapy</h1>
 
                 <div className="footerInner">
 
@@ -27,12 +27,15 @@ export default function Footer(){
 
                     <div className="contactUs">
                         <h2>Contact</h2>
-                        <p>T:</p>
-                        <p>Email:</p>
+                        <p>T: 786 414 4947</p>
+                        <p>Email: test@test.com</p>
+                        <p>Adress: 245 ne 14th st, <br/>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Miami Florida,<br/>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>33132</p>
                     </div>
                 </div>
 
-                <p className="rights">Copyright © 2023 by Sugarland Spa & Mobile Massage Therapy | All Rights Reserved</p>
+                <p className="rights">Copyright © 2023 by Sugarland Spa Mobile Massage Therapy | All Rights Reserved</p>
             </div>
         </>
     )
