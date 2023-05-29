@@ -37,7 +37,7 @@ const MassageSlider = ()=> {
                                 <SwiperSlide key={slide.id}>
                                     <Link to={`/pages/massages/massages/${slide.id}`}>
                                         <img src={slide.image} alt="massage slider"/>
-                                        <h5 
+                                        <h4 
                                             className={
                                                 slide.name === "Ashiatsu barefoot massage" ||
                                                 slide.name ===  "Wood therapy massage" ||
@@ -46,7 +46,7 @@ const MassageSlider = ()=> {
                                             }
                                         >
                                             {slide.name}
-                                        </h5>
+                                        </h4>
                                     </Link>
                                 </SwiperSlide>
                             )
