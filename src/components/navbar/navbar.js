@@ -98,13 +98,13 @@ export default function Navbar(props){
                 </div>
 
                 <div className="workingHoursNavbar">
-                        <h3>Working Hours</h3>
+                        <h2>Working Hours</h2>
                         <p>Monday - Sunday</p>
                         <p>6AM - Midnight</p>
                     </div>
 
                     <div className="contactUsNavbar">
-                        <h3>Contact</h3>
+                        <h2>Contact</h2>
                         <p>T:</p>
                         <p>Email:</p>
                     </div>

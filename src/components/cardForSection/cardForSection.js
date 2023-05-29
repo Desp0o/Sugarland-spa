@@ -4,7 +4,7 @@ export default function CardForSection(props){
         <div className="cardSmall">
             <img className="cardSmallIcon" src={props.icon} alt="card icon"/>
 
-            <h6 className="cardSmallTitle">{props.title}</h6>
+            <h2 className="cardSmallTitle">{props.title}</h2>
             <p className="cardSmallDescription">{props.description}</p>
         </div>
     )

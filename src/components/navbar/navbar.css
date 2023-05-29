@@ -169,9 +169,13 @@
     }
 
     .dashboardLinks, .workingHoursNavbar, .contactUsNavbar{
-        color: var(--secondColor);
+        color:#A6A6A6;
         text-transform: uppercase;
         font-family: 'upright';
+    }
+
+    .dashboardLinks{
+        font-size: 20px;
     }
 
     .workingHoursNavbar, .contactUsNavbar{
