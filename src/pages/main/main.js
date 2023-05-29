@@ -15,7 +15,6 @@ const  Home = ()=>{
         <>
         <Navbar burgerWhite={burgerWhite} burgerBlack={burgerBlack}/>
         <MainSlider />
-        {/* <MainTxt /> */}
         <OurServices />
         <FAQ />
         <SectionSecond />

@@ -22,16 +22,16 @@ export default function Footer(){
                     <div className="workingHours">
                         <h2>Working Hours</h2>
                         <p>Monday - Sunday</p>
-                        <p>6AM - Midnight</p>
+                        <p>6AM - 12AM</p>
                     </div>
 
                     <div className="contactUs">
                         <h2>Contact</h2>
                         <p>T: 786 414 4947</p>
                         <p>Email: test@test.com</p>
-                        <p>Adress: 245 ne 14th st, <br/>
-                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Miami Florida,<br/>
-                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>33132</p>
+                        <p>245 ne 14th st, <br/>
+                        <span></span>Miami Florida,<br/>
+                        <span></span>33132</p>
                     </div>
                 </div>
 

@@ -12,6 +12,7 @@
 
     object-fit: cover;
     object-position: center;
+    border: 1px solid white;
 }
 
 .massageBody h1{

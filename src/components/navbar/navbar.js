@@ -25,11 +25,13 @@ export default function Navbar(props){
     const burgerHandler = ()=> {
         setMenuIcon('burgerMenuIconDeactive')
         setDashboard('dashboard dashboardActive') 
+        document.body.classList.add('overflowHidden'); 
     }
 
     const closeHandler = ()=> {
         setMenuIcon('burgerMenuIcon')
         setDashboard('dashboard')
+        document.body.classList.remove('overflowHidden'); 
     }
 
     
@@ -64,7 +66,6 @@ export default function Navbar(props){
             <div className={props.bg ? props.bg : navbar}>
                 <Link to='/'>
                     <div className='logo'>
-                        {/* <p className={props.logoColor ? props.logoColor : logoP}>Sugarland Spa</p> */}
                         <img src={props.logoColor ? props.logoColor : logoP} alt='logo for sugarland spa'/>
                     </div>
                 </Link>
@@ -105,8 +106,8 @@ export default function Navbar(props){
 
                     <div className="contactUsNavbar">
                         <h2>Contact</h2>
-                        <p>T:</p>
-                        <p>Email:</p>
+                        <p onClick={handleButtonClick}>T: 786 414 4947</p>
+                        <p className='navContactEmal'>Email:</p>
                     </div>
             </div>
         </>

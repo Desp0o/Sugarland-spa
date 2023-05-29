@@ -196,7 +196,7 @@ export const massageList =[
     {
         id:5,
         image:`${prenatal}`,
-        name:"Pranatal massage",
+        name:"prenatal massage",
         shortDescription:"Prenatal massage is a type that's similar to regular massage – it aims to relax tense muscles, ease sore spots, improve circulation and mobility, and just make you feel good. But prenatal massage is also customized to the needs of pregnant women and their changing bodies, and therapists trained in prenatal massage adjust their techniques accordingly.",
         description:{
             paragraph1:'Prenatal massage is a type that\'s similar to regular massage – it aims to relax tense muscles, ease sore spots, improve circulation and mobility, and just make you feel good. But prenatal massage is also customized to the needs of pregnant women and their changing bodies, and therapists trained in prenatal massage adjust their techniques accordingly.',

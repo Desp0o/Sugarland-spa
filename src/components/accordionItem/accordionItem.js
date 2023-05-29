@@ -3,7 +3,6 @@ import "./accordionItem.css"
 
 export default function AccordionItem(){
 
-    const [set, setSet] = useState('accordionAnswer')
     const [activeItem, setActiveItem] = useState(null);
 
     const accordionItems = [
