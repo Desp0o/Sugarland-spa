@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/Sugarland-spa/static/css/main.ef795e08.css",
-    "main.js": "/Sugarland-spa/static/js/main.9038fef6.js",
+    "main.css": "/Sugarland-spa/static/css/main.34bf58c7.css",
+    "main.js": "/Sugarland-spa/static/js/main.c1dc68d9.js",
     "static/js/787.9a730df3.chunk.js": "/Sugarland-spa/static/js/787.9a730df3.chunk.js",
     "static/media/fourHands.webp": "/Sugarland-spa/static/media/fourHands.25955b732cae3cd2a66f.webp",
     "static/media/upright.ttf": "/Sugarland-spa/static/media/upright.458ae455932eb081183d.ttf",
+    "static/media/Honey.webp": "/Sugarland-spa/static/media/Honey.697cdf67f822a5b0a63d.webp",
+    "static/media/Wood.webp": "/Sugarland-spa/static/media/Wood.0386ef32d87765e7bfc7.webp",
     "static/media/montserrat.ttf": "/Sugarland-spa/static/media/montserrat.94bb495fba6077f669ed.ttf",
     "static/media/thai.webp": "/Sugarland-spa/static/media/thai.b4e1df12ca032a7a11be.webp",
     "static/media/hotstone.webp": "/Sugarland-spa/static/media/hotstone.3b50d97e626cfd8e51b4.webp",
-    "static/media/couples.webp": "/Sugarland-spa/static/media/couples.e456fdade12a6dc4a20c.webp",
     "static/media/bodyScrub.webp": "/Sugarland-spa/static/media/bodyScrub.0f2c85ea4ff5f08bb83d.webp",
     "static/media/deepTissue.webp": "/Sugarland-spa/static/media/deepTissue.aa59665ec7647796db5a.webp",
+    "static/media/ashiatsu.webp": "/Sugarland-spa/static/media/ashiatsu.97d1fc82a4a9488d7696.webp",
     "static/media/swedish.webp": "/Sugarland-spa/static/media/swedish.670caabaf73235a098e4.webp",
+    "static/media/LymphaticDrainage.webp": "/Sugarland-spa/static/media/LymphaticDrainage.4a1bbeb2bcf5ca9fccb1.webp",
+    "static/media/prenatal.webp": "/Sugarland-spa/static/media/prenatal.09c076d790d4a71e4092.webp",
     "static/media/cups.webp": "/Sugarland-spa/static/media/cups.68fd75e1a8bd865b71f4.webp",
     "static/media/mainImage.webp": "/Sugarland-spa/static/media/mainImage.d5362235597b370ebf51.webp",
     "static/media/leaf4.webp": "/Sugarland-spa/static/media/leaf4.5ad2a30828b140a4cc65.webp",
+    "static/media/CoupleMassage.webp": "/Sugarland-spa/static/media/CoupleMassage.ae261dc31a4b574098d3.webp",
     "static/media/leaf2.webp": "/Sugarland-spa/static/media/leaf2.b97f17ecdc08f9c2a7d8.webp",
     "static/media/lomilomi.webp": "/Sugarland-spa/static/media/lomilomi.31de2c6a24f1f17e19ee.webp",
     "static/media/leaf1.webp": "/Sugarland-spa/static/media/leaf1.17db9ae67cc1aafa9101.webp",
@@ -25,12 +30,12 @@
     "static/media/close.webp": "/Sugarland-spa/static/media/close.d7392977dc74fff6b49e.webp",
     "static/media/burgerMenu.webp": "/Sugarland-spa/static/media/burgerMenu.38dd4a99c37912b9b6ff.webp",
     "static/media/burgerMenuBlack.webp": "/Sugarland-spa/static/media/burgerMenuBlack.794907463fb46b0dd375.webp",
-    "main.ef795e08.css.map": "/Sugarland-spa/static/css/main.ef795e08.css.map",
-    "main.9038fef6.js.map": "/Sugarland-spa/static/js/main.9038fef6.js.map",
+    "main.34bf58c7.css.map": "/Sugarland-spa/static/css/main.34bf58c7.css.map",
+    "main.c1dc68d9.js.map": "/Sugarland-spa/static/js/main.c1dc68d9.js.map",
     "787.9a730df3.chunk.js.map": "/Sugarland-spa/static/js/787.9a730df3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef795e08.css",
-    "static/js/main.9038fef6.js"
+    "static/css/main.34bf58c7.css",
+    "static/js/main.c1dc68d9.js"
   ]
 }
