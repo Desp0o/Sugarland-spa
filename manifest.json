@@ -4,7 +4,7 @@
   "description":"Sugarland Spa Mobile Massage Therapy, Luxury massage at your place, We will bring high quality spa services at your place, Sugarland spa comes to you to provide the best service",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/Desp0o/Sugarland-spa/main/public/favico.png",
+      "src": "favicon.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
