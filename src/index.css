@@ -51,3 +51,16 @@ a{
 li{
   list-style: none;
 }
+
+
+::-webkit-scrollbar{
+  background-color: unset;
+}
+
+
+
+
+::-webkit-scrollbar-thumb{
+  background-color: #595959;
+  border-radius: 15px;
+}
