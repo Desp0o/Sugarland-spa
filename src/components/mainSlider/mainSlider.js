@@ -19,7 +19,7 @@ const sliderArr = [
         image: `${deepTissue}`,
         alt: 'main massage slider 2',
         header:'Sugarland Spa',
-        text1:'We will bring high quality spa services at your place ',
+        text1:'We will bring high quality spa services at your place',
         text2: 'All you need to give us call'
     },
 
