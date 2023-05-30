@@ -20,7 +20,7 @@ export default function Services() {
             />
 
             <div className="Services">
-                <h1 className="thirdHeader">Services</h1>
+                <h1 className="thirdHeader">Sugarland's Services</h1>
 
                 <div className="massages">
                     <div className="firstHalf">
@@ -33,7 +33,7 @@ export default function Services() {
                                         <div className="massageCardDesc">
                                             <h2 className="massageHeader">{item.name}</h2>
                                             <p className="shortDescr">{item.shortDescription}</p>
-                                            <Link to={`/pages/massages/massages/${item.id}`}>
+                                            <Link title={item.linkTitle} to={`/pages/massages/massages/${item.id}`}>
                                                 <div className="massageBTN">About</div>
                                             </Link>
                                         </div>

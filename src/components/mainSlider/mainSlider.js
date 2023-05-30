@@ -9,7 +9,7 @@ import lomiLomi from '../../components/images/massages/lomilomi.webp'
 const sliderArr = [
     {
         image: `${mainImage}`,
-        alt: 'main massage slider 1',
+        alt: 'sugarland spa mobile massage therapy slide: swedish massage',
         header:'Sugarland Spa',
         text1:'Mobile massage therapy',
         text2: '',
@@ -18,7 +18,7 @@ const sliderArr = [
 
     {
         image: `${deepTissue}`,
-        alt: 'main massage slider 2',
+        alt: 'sugarland spa mobile massage therapy slide: deep tissue',
         header:'Sugarland Spa',
         text1:'We will bring high quality spa services at your place',
         text2: 'All you need to give us call',
@@ -27,7 +27,7 @@ const sliderArr = [
 
     {
         image: `${lomiLomi}`,
-        alt: 'main massage slider 3',
+        alt: 'sugarland spa mobile massage therapy slide: lomi lomi massage',
         header:'Sugarland Spa',
         text1:'Sugarland spa comes to you to provide the best service',
         text2: '',
@@ -95,7 +95,7 @@ export default function MainSlider() {
 
 
                 })}
-                        <Link to='/pages/services/services'>
+                        <Link to='/pages/services/services' title="sugarland spa mobile massage services">
                             <div className='mainBTN'>
                                 <p>Explore</p>
                             </div>

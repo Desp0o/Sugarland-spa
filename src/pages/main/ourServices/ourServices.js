@@ -6,7 +6,7 @@ export default function OurServices(){
     return(
         <>
             <div className="OurServices">
-                <h1 className="thirdHeader">our services</h1>
+                <h1 className="thirdHeader">sugarland's services</h1>
 
                 <div className="massageSlider">
                     <MassageSlider />

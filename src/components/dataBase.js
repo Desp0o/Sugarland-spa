@@ -18,6 +18,8 @@ export const massageList =[
         id:0,
         image:`${deepTissue}`,
         name:"Deep tissue massage",
+        alt:'Deep tissue massage',
+        linkTitle:'sugarland spa Deep tissue massage',
         shortDescription:"Deep tissue massage therapy is with deeper strokes or harder pressure. Deep tissue massages use firm pressure and slow stroked to massage deep layers of muscle and fascia, which is the connective tissue that surrounds your muscles.",
         description:{
             paragraph1:'Deep tissue massage therapy is with deeper strokes or harder pressure. Deep tissue massages use firm pressure and slow stroked to massage deep layers of muscle and fascia, which is the connective tissue that surrounds your muscles.',
@@ -50,6 +52,8 @@ export const massageList =[
         id:1,
         image:`${swedish}`,
         name:"Swedish massage",
+        alt:'Swedish massage',
+        linkTitle:'sugarland spa Swedish massage',
         shortDescription:"Swedish massage therapy is the most well-known and widely practiced type of therapeutic massage—and for good reason. This type of massage focuses on muscle relaxation, targeting superficial muscles (rather than the connective tissues targeted in deep-tissue massage) and increasing blood circulation.",
         description:{
             paragraph1:'Swedish massage therapy is the most well-known and widely practiced type of therapeutic massage—and for good reason. This type of massage focuses on muscle relaxation, targeting superficial muscles (rather than the connective tissues targeted in deep-tissue massage) and increasing blood circulation.',
@@ -90,6 +94,8 @@ export const massageList =[
         id:2,
         image:`${ashiatsu}`,
         name:"Ashiatsu barefoot massage",
+        alt:'Ashiatsu barefoot massage',
+        linkTitle:'sugarland spa Ashiatsu barefoot massage',
         shortDescription:"Ashiatsu barefoot massage is performed on a standard massage table that additionally has ceiling-mounted bars for the therapist holds on to for balance and control during the treatment. Oil or lotion is used to enhance the client’s experience.",
         description:{
             paragraph1:'Ashiatsu barefoot massage is performed on a standard massage table that additionally has ceiling-mounted bars for the therapist holds on to for balance and control during the treatment. Oil or lotion is used to enhance the client’s experience.',
@@ -125,6 +131,8 @@ export const massageList =[
         id:3,
         image:`${thai}`,
         name:"Thai massage",
+        alt:'Thai massage',
+        linkTitle:'sugarland spa Thai massage',
         shortDescription:"Thai massage is a form of therapeutic touch that differs in many ways from traditional massage. Instead of a massage table, you lie on a mat on the floor while the provider manipulates your body in certain ways to stimulate organs and improve flexibility. ",
         description:{
             paragraph1:'Thai massage is a form of therapeutic touch that differs in many ways from traditional massage. Instead of a massage table, you lie on a mat on the floor while the provider manipulates your body in certain ways to stimulate organs and improve flexibility. ',
@@ -161,6 +169,8 @@ export const massageList =[
         id:4,
         image:`${hotStone}`,
         name:"Hot stone massage",
+        alt:'Hot stone massage',
+        linkTitle:'sugarland spa Hot stone massage',
         shortDescription:"A hot stone massage is a type of massage in which the masseuse places smooth, hot stones on your back. These stones provide heat therapy to the muscles, which can help reduce tension and pain. The stones used in hot stone massage are typically basalt, volcanic rock that is usually high in iron, which allows them to absorb heat.",
         description:{
             paragraph1:'A hot stone massage is a type of massage in which the masseuse places smooth, hot stones on your back. These stones provide heat therapy to the muscles, which can help reduce tension and pain. The stones used in hot stone massage are typically basalt, volcanic rock that is usually high in iron, which allows them to absorb heat.',
@@ -197,6 +207,8 @@ export const massageList =[
         id:5,
         image:`${prenatal}`,
         name:"prenatal massage",
+        alt:'prenatal massage',
+        linkTitle:'sugarland spa prenatal massage',
         shortDescription:"Prenatal massage is a type that's similar to regular massage – it aims to relax tense muscles, ease sore spots, improve circulation and mobility, and just make you feel good. But prenatal massage is also customized to the needs of pregnant women and their changing bodies, and therapists trained in prenatal massage adjust their techniques accordingly.",
         description:{
             paragraph1:'Prenatal massage is a type that\'s similar to regular massage – it aims to relax tense muscles, ease sore spots, improve circulation and mobility, and just make you feel good. But prenatal massage is also customized to the needs of pregnant women and their changing bodies, and therapists trained in prenatal massage adjust their techniques accordingly.',
@@ -233,6 +245,8 @@ export const massageList =[
         id:6,
         image:`${fourHands}`,
         name:"Four hand massage",
+        alt:'Four hand massage',
+        linkTitle:'sugarland spa Four hand massage',
         shortDescription:"Four hand massage is when we have two therapists working on your body at the same time. This results in a higher level of attention where otherwise one therapist would only be able to focus on one part of the body at a time. This means we can work more of your body, which means more relaxation and benefits.",
         description:{
             paragraph1:'Four hand massage Is when we have two therapists working on your body at the same time. This results in a higher level of attention where otherwise one therapist would only be able to focus on one part of the body at a time. This means we can work more of your body, which means more relaxation and benefits. The therapists usually use Aromatherapy massage techniques, combining long, slowing strokes with other techniques which are designed to relax the body.',
@@ -269,6 +283,8 @@ export const massageList =[
         id:7,
         image:`${couples}`,
         name:"Couples massage",
+        alt:'Couples massage',
+        linkTitle:'sugarland spa Couples massage',
         shortDescription:"Couples massage allows two people to have a shared experience that can result in a closer bond. A couple may choose this time to chat and catch up with each other or simply relax and enjoy the experience together. Most couples struggle with making time in their very busy schedules to spend quality time together, and a couples massage can be a purposeful and intentional reconnection. Massage therapy can help increase feelings of affection and intimacy.",
         description:{
             paragraph1:'Couples massage allows two people to have a shared experience that can result in a closer bond. A couple may choose this time to chat and catch up with each other or simply relax and enjoy the experience together. Most couples struggle with making time in their very busy schedules to spend quality time together, and a couples massage can be a purposeful and intentional reconnection. Massage therapy can help increase feelings of affection and intimacy by releasing oxytocin, serotonin, and dopamine in the body.',
@@ -305,6 +321,8 @@ export const massageList =[
         id:8,
         image:`${cups}`,
         name:"Cupping massage",
+        alt:'Cupping massage',
+        linkTitle:'sugarland spa Cupping massage',
         shortDescription:"Cupping therapy is an ancient form of alternative medicine in which a therapist puts special cups on your skin for a few minutes to create suction. People get it for many purposes, including to help with pain, inflammation, blood flow, relaxation and well-being, and as a type of deep-tissue massage.",
         description:{
             paragraph1:'Cupping therapy is an ancient form of alternative medicine in which a therapist puts special cups on your skin for a few minutes to create suction. People get it for many purposes, including to help with pain, inflammation, blood flow, relaxation and well-being, and as a type of deep-tissue massage.',
@@ -341,6 +359,8 @@ export const massageList =[
         id:9,
         image:`${woody}`,
         name:"Wood therapy massage",
+        alt:'Wood therapy massage',
+        linkTitle:'sugarland spa Wood therapy massage',
         shortDescription:"Wood therapy, also called maderotherapy or maderoterapia, is a form of massage that uses various hand-held wooden tools. Practitioners of wood therapy claim that it has benefits such as breaking down fat and cellulite, promoting blood circulation, smoothing the skin, and reducing stress.",
         description:{
             paragraph1:'Wood therapy, also called maderotherapy or maderoterapia, is a form of massage that uses various hand-held wooden tools. Practitioners of wood therapy claim that it has benefits such as breaking down fat and cellulite, promoting blood circulation, smoothing the skin, and reducing stress.',
@@ -391,6 +411,8 @@ export const massageList =[
         id:10,
         image:`${honey}`,
         name:"Honey massage",
+        alt:'Honey massage',
+        linkTitle:'sugarland spa Honey massage',
         shortDescription:"Honey massage is one of the massage types originating in ancient Tibet. Honey is used in this massage as a sticky substance that can pull out the “polluted” energy from the body and, by infiltrating the skin, supply the organism with its fantastic healing properties",
         description:{
             paragraph1:'Honey massage is one of the massage types originating in ancient Tibet. Honey is used in this massage as a sticky substance that can pull out the “polluted” energy from the body and, by infiltrating the skin, supply the organism with its fantastic healing properties. The result is the improvement of physical state and metabolism and cleansed energy channels; it also favourably affects the digestive system and nutrient processing, as well as smoothens out the skin.',
@@ -427,6 +449,8 @@ export const massageList =[
         id:11,
         image:`${bodyScrub}`,
         name:"Body scrub",
+        alt:'Body scrub',
+        linkTitle:'sugarland spa Body scrub',
         shortDescription:"A full body scrub massage is a type of exfoliation treatment that uses a Body Scrub to remove dead skin cells and promote circulation. Body scrubs are usually made with natural ingredients such as sugar, salt, coffee, or oats. can also be infused with essential oils for an added therapeutic benefits.",
         description:{
             paragraph1:'A full body scrub massage is a type of exfoliation treatment that uses a Body Scrub to remove dead skin cells and promote circulation. Body scrubs are usually made with natural ingredients such as sugar, salt, coffee, or oats. can also be infused with essential oils for an added therapeutic benefits.',
@@ -463,6 +487,8 @@ export const massageList =[
         id:12,
         image:`${lymphatic}`,
         name:"Lymphatic drainage massage",
+        alt:'Lymphatic drainage massage',
+        linkTitle:'sugarland spa Lymphatic drainage massage',
         shortDescription:"Lymphatic drainage massage, also known as manual lymphatic drainage, relieves swelling that happens when medical treatment or illness blocks your lymphatic system. Lymphatic drainage massage involves gently manipulating specific areas of your body to help lymph move to an area with working lymph vessels.",
         description:{
             paragraph1:'Lymphatic drainage massage, also known as manual lymphatic drainage, relieves swelling that happens when medical treatment or illness blocks your lymphatic system. Lymphatic drainage massage involves gently manipulating specific areas of your body to help lymph move to an area with working lymph vessels.',
@@ -499,6 +525,8 @@ export const massageList =[
         id:13,
         image:`${lomilomi}`,
         name:"Lomi Lomi massage",
+        alt:'Lomi Lomi massage',
+        linkTitle:'sugarland spa Lomi Lomi massage',
         shortDescription:"Lomi Lomi is a wonderful full body massage experience that leaves you feeling mellow and comforted inside and out. ",
         description:{
             paragraph1:'Lomi Lomi is a wonderful full body massage experience that leaves you feeling mellow and comforted inside and out. ',
