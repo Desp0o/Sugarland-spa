@@ -6,7 +6,7 @@ export default function FAQ(){
         <>
             <div className="faq">
 
-                <h1 className="faqHeader">FAQ</h1>
+                <h2 className="faqHeader">FAQ</h2>
 
                 <div className="accordion">
                     <AccordionItem />

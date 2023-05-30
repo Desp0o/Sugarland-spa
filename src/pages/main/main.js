@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import MainSlider from "../../components/mainSlider/mainSlider";
 import MainTxt from "./mainTxt"
 import SectionSecond from "./secondSection/sectionSecond";
@@ -11,6 +13,11 @@ import React from "react";
 
 
 const  Home = ()=>{
+
+    useEffect(()=>{
+        document.body.classList.remove('overflowHidden');
+    },[])
+
     return(
         <>
         <Navbar burgerWhite={burgerWhite} burgerBlack={burgerBlack}/>

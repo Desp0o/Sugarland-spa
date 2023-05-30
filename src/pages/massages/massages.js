@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom"
+import { useEffect } from "react";
 import { massageList } from "../../components/dataBase";
 import Navbar from "../../components/navbar/navbar";
 import "./massages.css"
@@ -9,6 +10,9 @@ export default function Massages(){
     const { linkName } = useParams();
     const massage = massageList.find(massage => massage.linkName === linkName);
     
+    useEffect(()=>{
+        document.body.classList.remove('overflowHidden');
+    },[])
     
     return(
         <>

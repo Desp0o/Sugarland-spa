@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./services.css"
 import { massageList } from '../../components/dataBase'
 import { Link } from "react-router-dom";
@@ -7,6 +8,10 @@ import logoBlack from '../../components/images/logoBlack.webp'
 import burgerBlack from '../../components/images/burgerMenuBlack.webp'
 
 export default function Services() {
+
+    useEffect(()=>{
+        document.body.classList.remove('overflowHidden');
+    },[])
 
     return (
         <>

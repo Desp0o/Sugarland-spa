@@ -21,6 +21,7 @@
     font-family: 'monserat';
     text-transform: uppercase;
     text-align: center;
+    font-size: 32px;
 }
 
 
@@ -31,9 +32,9 @@
 }
 
 
-.aboutUs h2,
-.contactUs h2,
-.workingHours h2
+.aboutUs h3,
+.contactUs h3,
+.workingHours h3
 {
     font-family: 'monserat';
     margin-bottom: 20px;
@@ -78,9 +79,9 @@
         width: 100%;
     }
 
-    .aboutUs h2,
-    .contactUs h2,
-    .workingHours h2
+    .aboutUs h3,
+    .contactUs h3,
+    .workingHours h3
     {
         font-family: 'monserat';
         margin-bottom: 0px;

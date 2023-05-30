@@ -5,12 +5,12 @@ export default function Footer(){
         <>
             <div className="footer">
 
-                <h1 className="footerHeader">Sugarland Spa Mobile Massage Therapy</h1>
+                <h2 className="footerHeader">Sugarland Spa Mobile Massage Therapy</h2>
 
                 <div className="footerInner">
 
                     <div className="aboutUs">
-                        <h2>About Us</h2>
+                        <h3>About Us</h3>
                         <p>
                             Sugarland spa 
                             Mobile massage therapy 
@@ -20,13 +20,13 @@ export default function Footer(){
                     </div>
 
                     <div className="workingHours">
-                        <h2>Working Hours</h2>
+                        <h3>Working Hours</h3>
                         <p>Monday - Sunday</p>
                         <p>6AM - 12AM</p>
                     </div>
 
                     <div className="contactUs">
-                        <h2>Contact</h2>
+                        <h3>Contact</h3>
                         <p>T: 786 414 4947</p>
                         <p>Email: test@test.com</p>
                         <p>245 ne 14th st, <br/>

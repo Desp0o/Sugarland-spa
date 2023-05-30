@@ -37,6 +37,10 @@
     gap:60px;
 }
 
+.menu p{
+    cursor: pointer;
+}
+
 .navMenuLinks{
     color: #F3F4F2;
     font-weight: 600;

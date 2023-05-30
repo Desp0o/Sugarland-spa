@@ -18,6 +18,10 @@ export default function Navbar(props){
     const [menuIcon, setMenuIcon] = useState('burgerMenuIcon') //hambugerMenu class
     const [dashboard, setDashboard] = useState('dashboard')
 
+    useEffect(()=>{
+        document.body.classList.remove('overflowHidden');
+    },[])
+
     const handleButtonClick = () => {
         window.location.href = `tel:786 414 4947`;
       };
@@ -74,7 +78,7 @@ export default function Navbar(props){
                     <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>home</Link>
                     {/* <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>about</Link> */}
                     <Link to='/pages/services/services' className={props.navLinkColor ? props.navLinkColor : menuColor}>services</Link>
-                    <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor} onClick={handleButtonClick}>Call</Link>
+                    <p className={props.navLinkColor ? props.navLinkColor : menuColor} onClick={handleButtonClick}>Call</p>
                 </div>
 
                 <div className='burgerMenu' onClick={burgerHandler}>
@@ -95,7 +99,7 @@ export default function Navbar(props){
                     <Link to='/' className='dashboardLinks'>home</Link>
                     {/* <Link to='/' className='dashboardLinks'>about</Link> */}
                     <Link to='/pages/services/services' className='dashboardLinks'>services</Link>
-                    <Link to='/' className='dashboardLinks' onClick={handleButtonClick}>Call</Link>
+                    <p className='dashboardLinks' onClick={handleButtonClick}>Call</p>
                 </div>
 
                 <div className="workingHoursNavbar">

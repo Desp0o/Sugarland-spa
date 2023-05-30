@@ -4,7 +4,7 @@ export default function CardForSection(props){
         <div className="cardSmall">
             <img className="cardSmallIcon" src={props.icon} alt="sugarland spa mobile massage bg icon"/>
 
-            <h2 className="cardSmallTitle">{props.title}</h2>
+            <p className="cardSmallTitle">{props.title}</p>
             <p className="cardSmallDescription">{props.description}</p>
         </div>
     )
