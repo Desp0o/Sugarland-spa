@@ -111,7 +111,7 @@ export default function Navbar(props){
                     <div className="contactUsNavbar">
                         <h2>Contact</h2>
                         <p onClick={handleButtonClick}>T: 786 414 4947</p>
-                        <p className='navContactEmal'>Email:</p>
+                        <p className='navContactEmal'>info@sugarlandspamassage.com</p>
                     </div>
             </div>
         </>

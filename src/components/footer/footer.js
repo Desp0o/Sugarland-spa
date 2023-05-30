@@ -28,7 +28,7 @@ export default function Footer(){
                     <div className="contactUs">
                         <h3>Contact</h3>
                         <p>T: 786 414 4947</p>
-                        <p>Email: test@test.com</p>
+                        <p>info@sugarlandspamassage.com	</p>
                         <p>245 ne 14th st, <br/>
                         <span></span>Miami Florida,<br/>
                         <span></span>33132</p>
