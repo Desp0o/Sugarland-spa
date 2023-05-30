@@ -10,7 +10,7 @@ const sliderArr = [
     {
         image: `${mainImage}`,
         alt: 'sugarland spa mobile massage therapy slide: swedish massage',
-        header:'Sugarland Spa',
+        header:'',
         text1:'Mobile massage therapy',
         text2: '',
         text3: 'Luxury massage at your place'
@@ -19,7 +19,7 @@ const sliderArr = [
     {
         image: `${deepTissue}`,
         alt: 'sugarland spa mobile massage therapy slide: deep tissue',
-        header:'Sugarland Spa',
+        header:'',
         text1:'We will bring high quality spa services at your place',
         text2: 'All you need to give us call',
         text3: ''
@@ -28,7 +28,7 @@ const sliderArr = [
     {
         image: `${lomiLomi}`,
         alt: 'sugarland spa mobile massage therapy slide: lomi lomi massage',
-        header:'Sugarland Spa',
+        header:'',
         text1:'Sugarland spa comes to you to provide the best service',
         text2: '',
         text3: ''
@@ -82,7 +82,7 @@ export default function MainSlider() {
 
                             <div className="mainBgTexts">
             
-                                <h1 className={SugarlandSpa}>{item.header}</h1> 
+                                <h1 className={SugarlandSpa}>Sugarland Spa</h1> 
                                 <p className={SugarlandSpa2}>{item.text1}</p> 
                                 <p className={LuxuryMassage}>{item.text2}</p>
                                 <p className={marginText}>{item.text3}</p>
