@@ -47,12 +47,12 @@
 
 @media (min-width:1900px) {
     .massageBody{
-        padding: 190პხ 350px 50px 350px;
+        padding: 190px 350px 50px 350px;
     }
 
     .massagebodyCover{
         width: 100%;
-        height: 600px;
+        height: 500px;
     
         object-fit: cover;
         object-position:0 0px 0 50px;

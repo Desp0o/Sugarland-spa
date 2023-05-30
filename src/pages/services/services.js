@@ -33,7 +33,7 @@ export default function Services() {
                                         <div className="massageCardDesc">
                                             <h2 className="massageHeader">{item.name}</h2>
                                             <p className="shortDescr">{item.shortDescription}</p>
-                                            <Link title={item.linkTitle} to={`/pages/massages/massages/${item.id}`}>
+                                            <Link title={item.linkTitle} to={`/pages/massages/massages/${item.linkName}`}>
                                                 <div className="massageBTN">About</div>
                                             </Link>
                                         </div>

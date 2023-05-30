@@ -6,9 +6,8 @@ import burgerBlack from '../../components/images/burgerMenuBlack.webp'
 import logoBlack from '../../components/images/logoBlack.webp'
 
 export default function Massages(){
-    const { id } = useParams();
-    const massage = massageList[id]
-    console.log(massage);
+    const { linkName } = useParams();
+    const massage = massageList.find(massage => massage.linkName === linkName);
     
     
     return(
@@ -24,7 +23,7 @@ export default function Massages(){
 
         <div className="massageBody">
             <img className="massagebodyCover" src={massage.image} alt={massage.alt}/>
-            <h1>{massageList[id].name}</h1>
+            <h1>{massage.name}</h1>
             {massage.description.paragraph1 ? <p>{massage.description.paragraph1}</p> : ''}
             {massage.description.paragraph2 ? <p>{massage.description.paragraph2}</p> : ''}
             {massage.description.paragraph3 ? <p>{massage.description.paragraph3}</p> : ''}

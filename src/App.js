@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route exact path="*" element={<Home/>} />
         <Route exact path="/pages/services/services" element={<Services/>} />
-        <Route exact path="/pages/massages/massages/:id" element={<Massages/>} />
+        <Route exact path="/pages/massages/massages/:linkName" element={<Massages/>} />
       </Routes>
 
       <Footer />
