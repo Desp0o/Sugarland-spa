@@ -25,7 +25,7 @@ export default function Services() {
             />
 
             <div className="Services">
-                <h1 className="thirdHeader">Sugarland's Services</h1>
+                <h2 className="thirdHeader">Sugarland's Services</h2>
 
                 <div className="massages">
                     <div className="firstHalf">

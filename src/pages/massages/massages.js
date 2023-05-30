@@ -27,7 +27,7 @@ export default function Massages(){
 
         <div className="massageBody">
             <img className="massagebodyCover" src={massage.image} alt={massage.alt}/>
-            <h1>{massage.name}</h1>
+            <h2 className="massageBodyHeader">{massage.name}</h2>
             {massage.description.paragraph1 ? <p>{massage.description.paragraph1}</p> : ''}
             {massage.description.paragraph2 ? <p>{massage.description.paragraph2}</p> : ''}
             {massage.description.paragraph3 ? <p>{massage.description.paragraph3}</p> : ''}
