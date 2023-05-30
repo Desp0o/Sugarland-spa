@@ -35,7 +35,7 @@ const MassageSlider = ()=> {
                         massageList.map((slide) => {
                             return (
                                 <SwiperSlide key={slide.id}>
-                                    <Link to={`/pages/massages/massages/${slide.id}`}>
+                                    <Link to={`/pages/massages/massages/${slide.linkName}`}>
                                         <img src={slide.image} alt={slide.alt}/>
                                         <h2 
                                             className={

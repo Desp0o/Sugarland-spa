@@ -1,5 +1,5 @@
 {
-  "homepage": "https://desp0o.github.io/Sugarland-spa/",
+  "homepage": "http://sugarlandspamassage.com/",
   "name": "sugarlandspa",
   "author": "Tornike Despotashvili",
   "version": "1.1.0",
@@ -8,7 +8,6 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2",
