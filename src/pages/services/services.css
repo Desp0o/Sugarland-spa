@@ -55,6 +55,7 @@
 
 .massageHeader{
     font-family: 'commorant';
+    text-transform: capitalize;
 }
 
 .massageBTN{
