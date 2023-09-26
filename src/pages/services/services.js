@@ -25,29 +25,31 @@ export default function Services() {
             />
 
             <div className="Services">
-                <h2 className="thirdHeader">Sugarland's Services</h2>
+                <div className="services_inner">
+                    <h2 className="thirdHeader">Sugarland's Services</h2>
 
-                <div className="massages">
-                    <div className="firstHalf">
-                        {
-                            massageList.map((item) => {
-                                return (
-                                    <div className="massageCard" key={item.name}>
-                                        <img src={item.image} className="massageCardImg" alt="massage card" loading="lazy"/>
+                    <div className="massages">
+                        <div className="firstHalf">
+                            {
+                                massageList.map((item) => {
+                                    return (
+                                        <div className="massageCard" key={item.name}>
+                                            <img src={item.image} className="massageCardImg" alt="massage card" loading="lazy"/>
 
-                                        <div className="massageCardDesc">
-                                            <h2 className="massageHeader">{item.name}</h2>
-                                            <p className="shortDescr">{item.shortDescription}</p>
-                                            <Link title={item.linkTitle} to={`/pages/massages/massages/${item.linkName}`}>
-                                                <div className="massageBTN">About</div>
-                                            </Link>
+                                            <div className="massageCardDesc">
+                                                <h2 className="massageHeader">{item.name}</h2>
+                                                <p className="shortDescr">{item.shortDescription}</p>
+                                                <Link title={item.linkTitle} to={`/pages/massages/massages/${item.linkName}`}>
+                                                    <div className="massageBTN">About</div>
+                                                </Link>
+                                            </div>
+
                                         </div>
+                                    )
+                                })
+                            }
 
-                                    </div>
-                                )
-                            })
-                        }
-
+                        </div>
                     </div>
                 </div>
             </div>

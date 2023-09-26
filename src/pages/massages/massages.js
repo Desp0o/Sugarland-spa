@@ -26,39 +26,44 @@ export default function Massages(){
         />
 
         <div className="massageBody">
-            <img className="massagebodyCover" src={massage.image} alt={massage.alt}/>
-            <h2 className="massageBodyHeader">{massage.name}</h2>
-            {massage.description.paragraph1 ? <p>{massage.description.paragraph1}</p> : ''}
-            {massage.description.paragraph2 ? <p>{massage.description.paragraph2}</p> : ''}
-            {massage.description.paragraph3 ? <p>{massage.description.paragraph3}</p> : ''}
-            {massage.description.paragraph4 ? <p>{massage.description.paragraph4}</p> : ''}
 
-            {massage.description.header2 ? <h2>{massage.description.header2}</h2> : ''}
+            <div className="massageBody_inner">
 
-            {massage.description.paragraph5 ? <p>{massage.description.paragraph5}</p> : ''}
+                <img className="massagebodyCover" src={massage.image} alt={massage.alt}/>
+                <h2 className="massageBodyHeader">{massage.name}</h2>
+                {massage.description.paragraph1 ? <p>{massage.description.paragraph1}</p> : ''}
+                {massage.description.paragraph2 ? <p>{massage.description.paragraph2}</p> : ''}
+                {massage.description.paragraph3 ? <p>{massage.description.paragraph3}</p> : ''}
+                {massage.description.paragraph4 ? <p>{massage.description.paragraph4}</p> : ''}
 
-            {massage.description.list.listHeader1 ? <h4>{massage.description.list.listHeader1}</h4> : ''}
-            {massage.description.list.listParagraph1 ? <p>{massage.description.list.listParagraph1}</p> : ''}
+                {massage.description.header2 ? <h2>{massage.description.header2}</h2> : ''}
 
-            {massage.description.list.listHeader2 ? <h4>{massage.description.list.listHeader2}</h4> : ''}
-            {massage.description.list.listParagraph2 ? <p>{massage.description.list.listParagraph2}</p> : ''}
-            {massage.description.list.listParagraphInner1 ? <p>{massage.description.list.listParagraphInner1}</p> : ''}
-            {massage.description.list.listParagraphInner2 ? <p>{massage.description.list.listParagraphInner2}</p> : ''}
-            {massage.description.list.listParagraphInner3 ? <p>{massage.description.list.listParagraphInner3}</p> : ''}
+                {massage.description.paragraph5 ? <p>{massage.description.paragraph5}</p> : ''}
 
-            {massage.description.list.listHeader3 ? <h4>{massage.description.list.listHeader3}</h4> : ''}
-            {massage.description.list.listParagraph3 ? <p>{massage.description.list.listParagraph3}</p> : ''}
+                {massage.description.list.listHeader1 ? <h4>{massage.description.list.listHeader1}</h4> : ''}
+                {massage.description.list.listParagraph1 ? <p>{massage.description.list.listParagraph1}</p> : ''}
 
-            {massage.description.list.listHeader4 ? <h4>{massage.description.list.listHeader4}</h4> : ''}
-            {massage.description.list.listParagraph4 ? <p>{massage.description.list.listParagraph4}</p> : ''}
+                {massage.description.list.listHeader2 ? <h4>{massage.description.list.listHeader2}</h4> : ''}
+                {massage.description.list.listParagraph2 ? <p>{massage.description.list.listParagraph2}</p> : ''}
+                {massage.description.list.listParagraphInner1 ? <p>{massage.description.list.listParagraphInner1}</p> : ''}
+                {massage.description.list.listParagraphInner2 ? <p>{massage.description.list.listParagraphInner2}</p> : ''}
+                {massage.description.list.listParagraphInner3 ? <p>{massage.description.list.listParagraphInner3}</p> : ''}
 
-            {massage.description.list.listHeader5 ? <h4>{massage.description.list.listHeader5}</h4> : ''}
-            {massage.description.list.listParagraph5 ? <p>{massage.description.list.listParagraph5}</p> : ''}
+                {massage.description.list.listHeader3 ? <h4>{massage.description.list.listHeader3}</h4> : ''}
+                {massage.description.list.listParagraph3 ? <p>{massage.description.list.listParagraph3}</p> : ''}
 
-            {massage.description.list.listHeader6 ? <h4>{massage.description.list.listHeader6}</h4> : ''}
-            {massage.description.list.listHeader7 ? <h4>{massage.description.list.listHeader7}</h4> : ''}
+                {massage.description.list.listHeader4 ? <h4>{massage.description.list.listHeader4}</h4> : ''}
+                {massage.description.list.listParagraph4 ? <p>{massage.description.list.listParagraph4}</p> : ''}
 
-            {massage.description.paragraph6 ? <p>{massage.description.paragraph6}</p> : ''}
+                {massage.description.list.listHeader5 ? <h4>{massage.description.list.listHeader5}</h4> : ''}
+                {massage.description.list.listParagraph5 ? <p>{massage.description.list.listParagraph5}</p> : ''}
+
+                {massage.description.list.listHeader6 ? <h4>{massage.description.list.listHeader6}</h4> : ''}
+                {massage.description.list.listHeader7 ? <h4>{massage.description.list.listHeader7}</h4> : ''}
+
+                {massage.description.paragraph6 ? <p>{massage.description.paragraph6}</p> : ''}
+            </div>
+
         </div>
         </>
         

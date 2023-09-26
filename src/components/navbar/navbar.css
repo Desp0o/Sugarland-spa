@@ -7,9 +7,6 @@
     top: 0;
     z-index: 5;
 
-    padding-left: 120px;
-    padding-right: 120px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,6 +14,20 @@
     background-color: inherit;
 
     transition: all 0.4s ease;
+}
+
+.navbar_inner{
+    box-sizing: border-box;
+    
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    height: 100%;
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo img{
@@ -52,7 +63,8 @@
 .navLine{
     border: 1px solid #F3F4F2;
 
-    width: calc(100% - 240px);
+    width: 100%;
+    max-width: 1200px;
     opacity: 1;
     position: absolute;
     bottom: 0;
@@ -100,32 +112,14 @@
     overflow: hidden;
 }
 
-@media (min-width:1900px) {
-    .navbar{
-        padding-left: 350px;
-        padding-right: 350px;
-    }
-
-    .navLine{
-    
-        width: calc(100% - 700px);
-    }
-}
 
 @media (max-width:769px) {
-    .navbar{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
     .logo img{
         width: 90px;
         height: auto;
     }
     .menu{
         display: none;
-    }
-    .navLine{
-        width: calc(100% - 40px);
     }
     .burgerMenu{
         display: block;
@@ -140,6 +134,7 @@
         display: none;
     }
     .dashboard{
+        top: 0;
         width: 85%;
         height: 100%;
         display: block;
@@ -152,6 +147,7 @@
     }
 
     .dashboardActive{
+        top: 0;
         display: block;
         width: 85%;
         left: 0;

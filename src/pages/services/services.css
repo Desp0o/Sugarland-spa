@@ -1,9 +1,15 @@
 .Services{
     box-sizing: border-box;
     width: 100%;
-    padding: 170px 120px 80px 120px;
+    padding: 170px 0px 80px 0px;
     overflow-x: hidden;
     color:white;
+}
+
+.services_inner{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .thirdHeader{
@@ -76,20 +82,8 @@
 }
 
 
-@media (min-width:1900px) {
-    .Services{
-        box-sizing: border-box;
-        width: 100%;
-        padding: 170px 350px 80px 350px;
-    }
-}
 
 @media (max-width:769px) {
-    .Services{
-        padding-left: 20px;
-        padding-right: 20px;
-    
-    }
 
     .massages{
         margin-top: 50px;

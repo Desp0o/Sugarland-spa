@@ -21,7 +21,6 @@
     font-weight: 600;
     width: 100%;
     padding: 20px 30px 20px 30px;
-    /* border: 1px solid var(--secondColor); */
     background-color:#A6A6A6;
     color: white;
 }
@@ -31,17 +30,18 @@
     text-transform: capitalize;
     font-family: 'monserat';
     box-sizing: border-box;
-    height: 0;
+    max-height: 0;
     width: 100%;
     padding: 0 30px 0 30px;
-    transition: all 0.2s ease;
+    transition: all 0.4s ease;
     overflow: hidden;
     color: white;
 }
 
 .accordionAnswerActive{
+    transition: all 0.4s ease;
     width: 100%;
-    height: fit-content;
+    max-height: 600px;
     box-sizing: border-box;
     padding: 30px 30px 30px 30px;
 }

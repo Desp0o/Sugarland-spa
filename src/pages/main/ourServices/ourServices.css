@@ -1,6 +1,13 @@
 .OurServices{
     padding-top: 80px;
     padding-bottom: 80px;
+    width: 100%;
+}
+
+.OurServices_inner{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
     position: relative;
     display: flex;
     flex-direction: column;

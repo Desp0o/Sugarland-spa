@@ -2,6 +2,13 @@
     width: 100%;
     padding: 80px 0;
 
+    
+}
+
+.secondSec_inner{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -17,35 +24,21 @@
 
 .secCards{
     width: 100%;
-    
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 100px;
+    justify-content: space-between;
+    
 }
 
+@media (max-width:800px) {
 
-@media (max-width:769px) {
     .secCards{
         width: 100%;
-        
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 50px;
-    }
-}
-
-@media (max-width:796px) {
-
-    .secCards{
-        width: 100%;
-        
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 50px;
+        gap: 20px;
     }
 
     .secHeader{

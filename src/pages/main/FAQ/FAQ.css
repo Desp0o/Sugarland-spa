@@ -1,11 +1,15 @@
 .faq{
     box-sizing: border-box;
     width: 100%;
-    height: fit-content;
     padding-bottom: 40px;
-    padding-left: 120px;
-    padding-right: 120px;
     padding-top: 80px;
+}
+
+.faq_inner{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    box-sizing: border-box;
 
     position: relative;
     display: flex;
@@ -21,33 +25,3 @@
     text-transform: uppercase;
 }
 
-
-@media (max-width:769px) {
-    .faq{
-        box-sizing: border-box;
-        width: 100%;
-        height: fit-content;
-        padding-left: 20px;
-        padding-right: 20px;
-    
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-    }
-}
-
-@media (min-width:1900px) {
-    .faq{
-        box-sizing: border-box;
-        width: 100%;
-        height: fit-content;
-        padding-left: 350px;
-        padding-right: 350px;
-    
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-    }
-}

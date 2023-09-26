@@ -68,51 +68,53 @@ export default function Navbar(props){
     return(
         <>
             <div className={props.bg ? props.bg : navbar}>
-                <Link to='/'>
-                    <div className='logo'>
-                        <img src={props.logoColor ? props.logoColor : logoP} alt='logo for sugarland spa'/>
-                    </div>
-                </Link>
+                <div className='navbar_inner'>
+                    <Link to='/'>
+                        <div className='logo'>
+                            <img src={props.logoColor ? props.logoColor : logoP} alt='logo for sugarland spa'/>
+                        </div>
+                    </Link>
 
-                <div className='menu'>
-                    <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>home</Link>
-                    {/* <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>about</Link> */}
-                    <Link to='/pages/services/services' className={props.navLinkColor ? props.navLinkColor : menuColor}>services</Link>
-                    <p className={props.navLinkColor ? props.navLinkColor : menuColor} onClick={handleButtonClick}>Call</p>
-                </div>
-
-                <div className='burgerMenu' onClick={burgerHandler}>
-                    <img className={menuIcon} src={hamburgerMenu} alt='burger menu open icon'/>
-                </div>
-
-                <div className={navLine} />
-            </div>
-
-            <div className={dashboard}>
-                <div className='closeIconDiv'>
-                    <div className='dashboardLogo'><p>Sugarland Spa</p></div>
-                    <img className='closeIcon' src={closeBtn} alt='burger menu close icon' onClick={closeHandler}/>
-                </div>
-
-
-                <div className='dashboardMenu'>
-                    <Link to='/' className='dashboardLinks'>home</Link>
-                    {/* <Link to='/' className='dashboardLinks'>about</Link> */}
-                    <Link to='/pages/services/services' className='dashboardLinks'>services</Link>
-                    <p className='dashboardLinks' onClick={handleButtonClick}>Call</p>
-                </div>
-
-                <div className="workingHoursNavbar">
-                        <h2>Working Hours</h2>
-                        <p>Monday - Sunday</p>
-                        <p>6AM - Midnight</p>
+                    <div className='menu'>
+                        <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>home</Link>
+                        {/* <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>about</Link> */}
+                        <Link to='/pages/services/services' className={props.navLinkColor ? props.navLinkColor : menuColor}>services</Link>
+                        <p className={props.navLinkColor ? props.navLinkColor : menuColor} onClick={handleButtonClick}>Call</p>
                     </div>
 
-                    <div className="contactUsNavbar">
-                        <h2>Contact</h2>
-                        <p onClick={handleButtonClick}>T: 786 414 4947</p>
-                        <p className='navContactEmal'>info@sugarlandspamassage.com</p>
+                    <div className='burgerMenu' onClick={burgerHandler}>
+                        <img className={menuIcon} src={hamburgerMenu} alt='burger menu open icon'/>
                     </div>
+
+                    <div className={navLine} />
+                </div>
+
+                <div className={dashboard}>
+                    <div className='closeIconDiv'>
+                        <div className='dashboardLogo'><p>Sugarland Spa</p></div>
+                        <img className='closeIcon' src={closeBtn} alt='burger menu close icon' onClick={closeHandler}/>
+                    </div>
+
+
+                    <div className='dashboardMenu'>
+                        <Link to='/' className='dashboardLinks'>home</Link>
+                        {/* <Link to='/' className='dashboardLinks'>about</Link> */}
+                        <Link to='/pages/services/services' className='dashboardLinks'>services</Link>
+                        <p className='dashboardLinks' onClick={handleButtonClick}>Call</p>
+                    </div>
+
+                    <div className="workingHoursNavbar">
+                            <h2>Working Hours</h2>
+                            <p>Monday - Sunday</p>
+                            <p>6AM - Midnight</p>
+                        </div>
+
+                        <div className="contactUsNavbar">
+                            <h2>Contact</h2>
+                            <p onClick={handleButtonClick}>T: 786 414 4947</p>
+                            <p className='navContactEmal'>info@sugarlandspamassage.com</p>
+                        </div>
+                </div>
             </div>
         </>
     )

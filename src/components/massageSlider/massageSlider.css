@@ -2,8 +2,6 @@
     box-sizing: border-box;
     width: 100%;
     height: fit-content;
-    padding-left: 120px;
-    padding-right: 120px;
 }
 
 .swiper {
@@ -71,8 +69,6 @@
         box-sizing: border-box;
         width: 100%;
         height: fit-content;
-        padding-left: 20px;
-        padding-right: 20px;
     }
 
     .sliderSwiperHeaderSmall{
@@ -86,11 +82,4 @@
         text-transform: uppercase;
         color: rgb(255, 255, 255);
       }
-  }
-
-  @media (min-width:1900px) {
-    .sliderContainer{
-      padding-left: 350px;
-      padding-right: 350px;
-  }
   }

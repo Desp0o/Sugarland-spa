@@ -3,9 +3,14 @@
     overflow-x: hidden;
     box-sizing: border-box;
     width: 100%;
-    height: fit-content;
-    padding: 80px 120px 20px 120px;
+    padding: 80px 0px 20px 0px;
     color: white !important;
+}
+
+.footer_inner{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
 }
 
 .footerInner{
@@ -28,7 +33,7 @@
 .aboutUs,
 .contactUs,
 .workingHours{
-    width: 300px;
+    max-width: 300px;
 }
 
 
@@ -53,9 +58,9 @@
 }
 
 
-@media (max-width:769px) {
+@media (max-width:800px) {
     .footer{
-        padding: 50px 20px 20px 20px;
+        padding: 50px 0px 20px 0px;
     }
 
     .footerHeader{
@@ -77,6 +82,7 @@
     .contactUs,
     .workingHours{
         width: 100%;
+        max-width: 100%;
     }
 
     .aboutUs h3,
@@ -92,8 +98,3 @@
     
 }
 
-@media (min-width:1900px) {
-    .footer{
-        padding: 80px 350px 20px 350px;
-    }
-}

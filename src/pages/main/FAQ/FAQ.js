@@ -6,10 +6,14 @@ export default function FAQ(){
         <>
             <div className="faq">
 
-                <h2 className="faqHeader">FAQ</h2>
+                <div className="faq_inner">
 
-                <div className="accordion">
-                    <AccordionItem />
+                    <h2 className="faqHeader">FAQ</h2>
+
+                    <div className="accordion">
+                        <AccordionItem />
+                    </div>
+
                 </div>
             </div>
         </>
