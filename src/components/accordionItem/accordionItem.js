@@ -23,7 +23,7 @@ export default function AccordionItem(){
                 {
                     accordionItems.map((accordion, index) => {
                         return(
-                                <div className="accordionItem" key={index} onClick={() => {
+                                <div className={activeItem === index ? "accordionItem accordionItemActive" : "accordionItem"} key={index} onClick={() => {
                                         if(activeItem === index){
                                             setActiveItem(null)
                                         }else{
@@ -35,7 +35,7 @@ export default function AccordionItem(){
                                         <p>{accordion.title}</p>
                                     </div>
 
-                                    <div className={activeItem === index ? "accordionAnswer accordionAnswerActive" : "accordionAnswer"}>
+                                    <div className="accordionAnswer">
                                     <p>{accordion.content}</p>
                                     </div>
                                 </div>
