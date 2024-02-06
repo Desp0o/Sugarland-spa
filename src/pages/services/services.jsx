@@ -34,7 +34,7 @@ export default function Services() {
                                 massageList.map((item) => {
                                     return (
                                         <div className="massageCard" key={item.name}>
-                                            <img src={item.image} className="massageCardImg" alt="massage card" loading="lazy"/>
+                                            <img loading="lazy" src={item.image} className="massageCardImg" alt="massage card" />
 
                                             <div className="massageCardDesc">
                                                 <h2 className="massageHeader">{item.name}</h2>

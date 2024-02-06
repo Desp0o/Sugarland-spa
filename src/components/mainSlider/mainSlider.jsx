@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import "./mainSlider.css"
+import "../../pages/main/main.css"
 
 import mainImage from '../images/mainImage.webp'
 import deepTissue from '../images/massages/deepTissue.webp'
