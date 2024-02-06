@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 
 import MainSlider from "../../components/mainSlider/mainSlider";
-import MainTxt from "./mainTxt"
 import SectionSecond from "./secondSection/sectionSecond";
 import Navbar from '../../components/navbar/navbar'
 import OurServices from "./ourServices/ourServices";

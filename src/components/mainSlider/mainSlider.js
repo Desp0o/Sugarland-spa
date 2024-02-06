@@ -54,7 +54,7 @@ export default function MainSlider() {
         return () => {
             clearInterval(textTimer)
         }
-    }, [index])
+    }, [index, slideLength])
 
     return (
         <>

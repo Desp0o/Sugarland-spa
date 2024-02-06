@@ -63,7 +63,7 @@ export default function Navbar(props){
             }
     
         });
-    }, [])
+    }, [props.burgerWhite, props.burgerBlack])
 
     return(
         <>
