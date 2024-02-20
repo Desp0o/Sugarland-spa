@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+
 import { massageList } from "../dataBase"
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
+
 
 import "./massageSlider.css";
 
@@ -25,35 +22,31 @@ const MassageSlider = ()=> {
     return (
         <>
             <div className="sliderContainer">
-                <Swiper
-                    slidesPerView={slideNumber}
-                    spaceBetween={30}
-                    loop={true}
-                    className="mySwiper"
-                >
-                    {
-                        massageList.map((slide) => {
-                            return (
-                                <SwiperSlide key={slide.id}>
-                                    <Link to={`/pages/massages/massages/${slide.linkName}`}>
-                                        <img loading="lazy" src={slide.image} alt={slide.alt}/>
-                                        <h2 
-                                            className={
-                                                slide.name === "Ashiatsu barefoot massage" ||
-                                                slide.name ===  "Wood therapy massage" ||
-                                                slide.name ===  "Lymphatic drainage massage"
-                                                                ? "sliderSwiperHeaderSmall" : 'sliderSwiperHeader'
-                                            }
-                                        >
-                                            {slide.name}
-                                        </h2>
-                                    </Link>
-                                </SwiperSlide>
-                            )
-                        })
-                    }
+                
+                 {
+                    massageList.map((slide) => {
+                        return(
+                           
+                           
+                           <Link className="massageBlock" to={`/pages/massages/massages/${slide.linkName}`}>
+                            <img className="massageBlock_cover" src={slide.image} alt={slide.alt}/>
+                            <h2 
+                                className={
+                                    slide.name === "Ashiatsu barefoot massage" ||
+                                    slide.name ===  "Wood therapy massage" ||
+                                    slide.name ===  "Lymphatic drainage massage"
+                                                    ? "sliderSwiperHeaderSmall" : 'sliderSwiperHeader'
+                                }
+                            >
+                                {slide.name}
+                            </h2>
+                            </Link>
+                        )
+                    })
+                 }  
+                    
 
-                </Swiper>
+               
             </div>
         </>
     );

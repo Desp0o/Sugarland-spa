@@ -14,6 +14,17 @@
     gap: 40px;
 }
 
+.massageSlider{
+    padding: 5px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.massageSlider::-webkit-scrollbar {
+    height: 0px; /* Set the width of the scroll bar */
+    display: none;
+  }
+
 
 .thirdHeader{
     /* color: #242925; */
