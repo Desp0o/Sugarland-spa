@@ -36,6 +36,7 @@ const MassageSlider = () => {
             ref={itemsRef}
             onMouseDown={handleMouseDown}
             onMouseMove={handleMouseMove}
+            onMouseLeave={handleMouseLeaveOrUp}
             onMouseUp={handleMouseLeaveOrUp}
         >
             {massageList.map((slide) => (
