@@ -10,7 +10,6 @@ import lomiLomi from '../../components/images/massages/lomilomi.webp'
 const sliderArr = [
     {
         image: `${mainImage}`,
-        alt: 'sugarland spa mobile massage therapy slide: swedish massage',
         header:'',
         text1:'Mobile massage therapy',
         text2: '',
@@ -19,7 +18,6 @@ const sliderArr = [
 
     {
         image: `${deepTissue}`,
-        alt: 'sugarland spa mobile massage therapy slide: deep tissue',
         header:'',
         text1:'We will bring high quality spa services at your place',
         text2: 'All you need to give us call',
@@ -28,7 +26,6 @@ const sliderArr = [
 
     {
         image: `${lomiLomi}`,
-        alt: 'sugarland spa mobile massage therapy slide: lomi lomi massage',
         header:'',
         text1:'Sugarland spa comes to you to provide the best service',
         text2: '',
@@ -79,7 +76,7 @@ export default function MainSlider() {
                     return (
                         <div className="sliderWrapper" key={slideIndex}>
                             <div className={overlay} />
-                            <img className={sliderimg} src={item.image} alt={item.alt} />
+                            <img className={sliderimg} src={item.image} alt="main slider image" />
 
                             <div className="mainBgTexts">
             

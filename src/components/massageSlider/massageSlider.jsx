@@ -1,56 +1,69 @@
-import React, { useEffect, useState } from "react";
+import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { massageList } from "../dataBase"
-
-
+import { massageList } from "../dataBase";
 import "./massageSlider.css";
 
+const MassageSlider = () => {
+    const itemsRef = useRef(null);
+    const [isMouseDown, setIsMouseDown] = useState(false);
+    const [startX, setStartX] = useState(0);
+    const [scrollLeft, setScrollLeft] = useState(0);
 
-const MassageSlider = ()=> {
-    const [slideNumber, setSlideNumber] = useState('3')
+    const handleMouseDown = (e) => {
+        e.preventDefault();
+        setIsMouseDown(true);
+        setStartX(e.pageX - itemsRef.current.offsetLeft);
+        setScrollLeft(itemsRef.current.scrollLeft);
+    };
 
-    useEffect(()=>{
-        if(window.innerWidth < 1300){
-            setSlideNumber(2)
-        }
+    const handleMouseLeaveOrUp = (e) => {
+        e.preventDefault();
+        setIsMouseDown(false);
+    };
 
-        if(window.innerWidth < 800){
-            setSlideNumber(1)
-        }
-    },[])
+    const handleMouseMove = (e) => {
+        if (!isMouseDown) return;
+        e.preventDefault();
+        const x = e.pageX - itemsRef.current.offsetLeft;
+        const walk = (x - startX) * 4; // Adjust scroll speed as needed
+        itemsRef.current.scrollLeft = scrollLeft - walk;
+    };
+
     return (
-        <>
-            <div className="sliderContainer">
-                
-                 {
-                    massageList.map((slide) => {
-                        return(
-                           
-                           
-                           <Link className="massageBlock" to={`/pages/massages/massages/${slide.linkName}`}>
-                            <img className="massageBlock_cover" src={slide.image} alt={slide.alt}/>
-                            <h2 
-                                className={
-                                    slide.name === "Ashiatsu barefoot massage" ||
-                                    slide.name ===  "Wood therapy massage" ||
-                                    slide.name ===  "Lymphatic drainage massage"
-                                                    ? "sliderSwiperHeaderSmall" : 'sliderSwiperHeader'
-                                }
-                            >
-                                {slide.name}
-                            </h2>
-                            </Link>
-                        )
-                    })
-                 }  
-                    
-
-               
-            </div>
-        </>
+        <div
+            className="sliderContainer"
+            ref={itemsRef}
+            onMouseDown={handleMouseDown}
+            onMouseMove={handleMouseMove}
+            onMouseUp={handleMouseLeaveOrUp}
+        >
+            {massageList.map((slide) => (
+                <Link
+                    key={slide.linkName}
+                    className="massageBlock"
+                    to={`/pages/massages/massages/${slide.linkName}`}
+                >
+                    <img
+                        className="massageBlock_cover"
+                        src={slide.image}
+                        alt="massage slider image"
+                    />
+                    <h2
+                        className={
+                            slide.name === "Ashiatsu barefoot massage" ||
+                                slide.name === "Wood therapy massage" ||
+                                slide.name === "Lymphatic drainage massage"
+                                ? "sliderSwiperHeaderSmall"
+                                : "sliderSwiperHeader"
+                        }
+                    >
+                        {slide.name}
+                    </h2>
+                </Link>
+            ))}
+        </div>
     );
-}
+};
 
-
-export default MassageSlider
+export default MassageSlider;
