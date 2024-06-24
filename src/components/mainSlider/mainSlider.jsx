@@ -55,8 +55,7 @@ export default function MainSlider() {
     }, [index, slideLength])
 
     return (
-        <>
-            <div className="slider">
+            <section className="slider">
                 {sliderArr.map((item, slideIndex) => {
 
 
@@ -98,7 +97,6 @@ export default function MainSlider() {
                                 <p>Explore</p>
                             </div>
                         </Link>
-            </div>
-        </>
+            </section>
     )
 }

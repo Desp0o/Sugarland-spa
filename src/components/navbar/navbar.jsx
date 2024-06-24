@@ -66,8 +66,7 @@ export default function Navbar(props){
     }, [props.burgerWhite, props.burgerBlack])
 
     return(
-        <>
-            <div className={props.bg ? props.bg : navbar}>
+            <nav className={props.bg ? props.bg : navbar}>
                 <div className='navbar_inner'>
                     <Link to='/'>
                         <div className='logo'>
@@ -78,7 +77,7 @@ export default function Navbar(props){
                     <div className='menu'>
                         <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>home</Link>
                         {/* <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>about</Link> */}
-                        <Link to='/pages/services/services' className={props.navLinkColor ? props.navLinkColor : menuColor}>services</Link>
+                        <Link to='/pages/services' className={props.navLinkColor ? props.navLinkColor : menuColor}>services</Link>
                         <p className={props.navLinkColor ? props.navLinkColor : menuColor} onClick={handleButtonClick}>Call</p>
                     </div>
 
@@ -99,7 +98,7 @@ export default function Navbar(props){
                     <div className='dashboardMenu'>
                         <Link to='/' className='dashboardLinks'>home</Link>
                         {/* <Link to='/' className='dashboardLinks'>about</Link> */}
-                        <Link to='/pages/services/services' className='dashboardLinks'>services</Link>
+                        <Link to='/pages/services' className='dashboardLinks'>services</Link>
                         <p className='dashboardLinks' onClick={handleButtonClick}>Call</p>
                     </div>
 
@@ -115,7 +114,6 @@ export default function Navbar(props){
                             <p className='navContactEmal'>info@sugarlandspamassage.com</p>
                         </div>
                 </div>
-            </div>
-        </>
+            </nav>
     )
 }

@@ -2,8 +2,7 @@ import "./footer.css"
 
 export default function Footer(){
     return(
-        <>
-            <div className="footer">
+            <footer className="footer">
 
                 <div className="footer_inner">
                     <h2 className="footerHeader">Sugarland Spa Mobile Massage Therapy</h2>
@@ -39,7 +38,6 @@ export default function Footer(){
                     <p className="rights">Copyright © 2023 by Sugarland Spa Mobile Massage Therapy | All Rights Reserved</p>
                 </div>
 
-            </div>
-        </>
+            </footer>
     )
 }

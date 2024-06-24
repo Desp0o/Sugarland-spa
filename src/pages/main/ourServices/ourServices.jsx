@@ -4,8 +4,7 @@ import "./ourServices.css"
 
 export default function OurServices(){
     return(
-        <>
-            <div className="OurServices">
+            <section className="OurServices">
 
                 <div className="OurServices_inner">
                     <h2 className="thirdHeader">sugarland's services</h2>
@@ -14,14 +13,13 @@ export default function OurServices(){
                         <MassageSlider />
                     </div>
 
-                    <Link to='/pages/services/services'>
+                    <Link to='/pages/services'>
                         <div className="serviceBTN">
                                 <p>See More</p>
                         </div>
                     </Link>
                 </div>
-            </div>
+            </section>
         
-        </>
     )
 }

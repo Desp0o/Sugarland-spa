@@ -1,10 +1,11 @@
 import { useParams } from "react-router-dom"
 import { useEffect } from "react";
-import { massageList } from "../../components/dataBase";
-import Navbar from "../../components/navbar/navbar";
+import { massageList } from "../components/dataBase";
+import Navbar from "../components/navbar/navbar";
 import "./massages.css"
-import burgerBlack from '../../components/images/burgerMenuBlack.webp'
-import logoBlack from '../../components/images/logoBlack.webp'
+import burgerBlack from '../components/images/burgerMenuBlack.webp'
+import logoBlack from '../components/images/logoBlack.webp'
+import SEO from "../components/SEO";
 
 export default function Massages(){
     const { linkName } = useParams();
@@ -16,6 +17,8 @@ export default function Massages(){
     
     return(
         <>
+        <SEO title={massage.name} description={massage.description.paragraph1} />
+
         <Navbar
                 bg='navbar whiteBG'
                 navLinkColor='navMenuLinks black'

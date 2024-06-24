@@ -3,8 +3,7 @@ import "./FAQ.css"
 
 export default function FAQ(){
     return(
-        <>
-            <div className="faq">
+            <section className="faq">
 
                 <div className="faq_inner">
 
@@ -15,7 +14,6 @@ export default function FAQ(){
                     </div>
 
                 </div>
-            </div>
-        </>
+            </section>
     )
 }
