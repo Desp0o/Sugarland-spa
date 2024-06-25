@@ -24,10 +24,13 @@ const MassageSlider = () => {
 
     const handleMouseMove = (e) => {
         if (!isMouseDown) return;
-        e.preventDefault();
-        const x = e.pageX - itemsRef.current.offsetLeft;
-        const walk = (x - startX) * 4; // Adjust scroll speed as needed
+      e.preventDefault();
+      if(itemsRef.current){
+
+        const x = e.pageX - itemsRef.current.offsetLeft / 2;
+        const walk = (x - startX) * 1; // Adjust scroll speed as needed
         itemsRef.current.scrollLeft = scrollLeft - walk;
+      }
     };
 
     return (
