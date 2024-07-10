@@ -92,7 +92,7 @@ export default function MainSlider() {
 
 
                 })}
-                        <Link to='/pages/services/services' title="sugarland spa mobile massage services">
+                        <Link to='/services' title="sugarland spa mobile massage services">
                             <div className='mainBTN'>
                                 <p>Explore</p>
                             </div>

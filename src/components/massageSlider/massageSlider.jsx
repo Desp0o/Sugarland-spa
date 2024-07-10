@@ -46,7 +46,7 @@ const MassageSlider = () => {
                 <Link
                     key={slide.linkName}
                     className="massageBlock"
-                    to={`/pages/massages/${slide.linkName}`}
+                    to={`/massages/${slide.linkName}`}
                 >
                     <img
                         className="massageBlock_cover"

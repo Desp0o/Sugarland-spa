@@ -13,7 +13,7 @@ export default function OurServices(){
                         <MassageSlider />
                     </div>
 
-                    <Link to='/pages/services'>
+                    <Link to='/services'>
                         <div className="serviceBTN">
                                 <p>See More</p>
                         </div>
