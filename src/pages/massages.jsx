@@ -4,7 +4,7 @@ import { massageList } from "../components/dataBase";
 import Navbar from "../components/navbar/navbar";
 import "./massages.css"
 import burgerBlack from '../components/images/burgerMenuBlack.webp'
-import logoBlack from '../components/images/logoBlack.webp'
+import logoBlack from '../components/images/logoBlack1.png'
 import SEO from "../components/SEO";
 
 export default function Massages(){
