@@ -12,7 +12,7 @@ export default function SectionSecond() {
 
             <div className="secondSec_inner">
 
-                <h2 className="secHeader">How Sugarland Spa Works</h2>
+                <h2 className="secHeader">How Namour Massage Works</h2>
 
                 <div className="secCards">
                     <CardForSection icon={team} title="Specialized Team" description="Expert therapists providing specialized massages and spa treatments" />

@@ -7,7 +7,7 @@ export default function OurServices(){
             <section className="OurServices">
 
                 <div className="OurServices_inner">
-                    <h2 className="thirdHeader">sugarland's services</h2>
+                    <h2 className="thirdHeader">Namour Massage's services</h2>
 
                     <div className="massageSlider">
                         <MassageSlider />

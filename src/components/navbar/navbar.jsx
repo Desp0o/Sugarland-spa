@@ -23,7 +23,7 @@ export default function Navbar(props){
     },[])
 
     const handleButtonClick = () => {
-        window.location.href = `tel:786 414 4947`;
+        window.location.href = `tel:786 531 0916`;
       };
 
     const burgerHandler = ()=> {
@@ -70,7 +70,7 @@ export default function Navbar(props){
                 <div className='navbar_inner'>
                     <Link to='/'>
                         <div className='logo'>
-                            <img src={props.logoColor ? props.logoColor : logoP} alt='logo for sugarland spa'/>
+                            <img src={props.logoColor ? props.logoColor : logoP} alt='logo for Namour Massage spa'/>
                         </div>
                     </Link>
 
@@ -90,7 +90,7 @@ export default function Navbar(props){
 
                 <div className={dashboard}>
                     <div className='closeIconDiv'>
-                        <div className='dashboardLogo'><p>Sugarland Spa</p></div>
+                        <div className='dashboardLogo'><p>Namour Massage</p></div>
                         <img className='closeIcon' src={closeBtn} alt='burger menu close icon' onClick={closeHandler}/>
                     </div>
 
@@ -110,8 +110,8 @@ export default function Navbar(props){
 
                         <div className="contactUsNavbar">
                             <h2>Contact</h2>
-                            <p onClick={handleButtonClick}>T: 786 414 4947</p>
-                            <p className='navContactEmal'>info@sugarlandspamassage.com</p>
+                            <p onClick={handleButtonClick}>T: 786 531 0916</p>
+                            <p className='navContactEmal'>Namourmassage@gmail.com</p>
                         </div>
                 </div>
             </nav>

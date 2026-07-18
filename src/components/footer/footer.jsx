@@ -5,15 +5,14 @@ export default function Footer(){
             <footer className="footer">
 
                 <div className="footer_inner">
-                    <h2 className="footerHeader">Sugarland Spa Mobile Massage Therapy</h2>
+                    <h2 className="footerHeader">Namour Massage</h2>
 
                     <div className="footerInner">
 
                         <div className="aboutUs">
                             <h3>About Us</h3>
                             <p>
-                                Sugarland spa 
-                                Mobile massage therapy 
+                                Namour Massage
                                 Will bring luxury quality services at your location whatever you are home, hotel,office and etc
                                 all our therapists are licensed and experienced have a vast background in massage therapy
                             </p>
@@ -27,15 +26,15 @@ export default function Footer(){
 
                         <div className="contactUs">
                             <h3>Contact</h3>
-                            <p>T: 786 414 4947</p>
-                            <p>info@sugarlandspamassage.com	</p>
+                            <p>T: 786 531 0916</p>
+                            <p>Namourmassage@gmail.com	</p>
                             <p>245 ne 14th st, <br/>
                             <span></span>Miami Florida,<br/>
                             <span></span>33132</p>
                         </div>
                     </div>
 
-                    <p className="rights">Copyright © 2023 by Sugarland Spa Mobile Massage Therapy | All Rights Reserved</p>
+                    <p className="rights">Copyright © 2026 by Namour Massage | All Rights Reserved</p>
                 </div>
 
             </footer>
