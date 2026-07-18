@@ -6,8 +6,8 @@ import './navbar.css'
 
 import burgerMenu from '../images/burgerMenu.webp'
 import closeBtn from '../images/close.webp'
-import logoWhite from '../images/logoWhite1.png' 
-import logoblack from '../images/logoBlack1.png' 
+import logoWhite from '../images/glogo-Photoroom.png' 
+import logoblack from '../images/glogo-Photoroom.png' 
 
 export default function Navbar(props){
     const [hamburgerMenu, setHamburgerMenu] = useState(`${props.firstLoad ? props.firstLoad : burgerMenu }`) //hambugerMenu icon
