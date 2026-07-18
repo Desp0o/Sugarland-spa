@@ -8,11 +8,13 @@ const SEO = ({ title, description }) => {
             <meta property="og:url" content="https://namourmassage.com/" />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
+            <meta property="og:image" content="https://namourmassage.com/metaImage.jpg" />
             {/* <!-- Twitter -- /> */}
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:url" content="https://namourmassage.com/" />
             <meta property="twitter:title" content={title} />
             <meta property="twitter:description" content={description} />
+            <meta property="twitter:image" content="https://namourmassage.com/metaImage.jpg" />
 
             <meta name="title" content={title} />
             <meta name="description" content={description} />
