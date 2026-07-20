@@ -9,7 +9,7 @@
     box-sizing: border-box;
     width: 100%;
     height: fit-content;
-    border: 1px solid #A6A6A6;
+    border: 1px solid #FCE576;
 
     cursor: pointer;
 
@@ -22,7 +22,7 @@
     box-sizing: border-box;
     width: 100%;
     height: fit-content;
-    border: 1px solid #A6A6A6;
+    border: 1px solid #FCE576;
 
     cursor: pointer;
 
@@ -38,8 +38,8 @@
     height: 60px;
     width: 100%;
     padding: 20px 30px 20px 30px;
-    background-color:#A6A6A6;
-    color: white;
+    background-color:#0F2511;
+    color: #FCE576;
 
     display: flex;
     align-items: center;
@@ -55,7 +55,7 @@
     padding: 30px 30px 30px 30px;
     transition: all 0.4s ease;
     overflow: hidden;
-    color: white;
+    color: #FCE576;
 }
 
 .accordionAnswerActive{

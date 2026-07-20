@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 import './navbar.css'
 
-import burgerMenu from '../images/burgerMenu.webp'
-import closeBtn from '../images/close.webp'
+import burgerMenu from '../images/burgerMenuGold.png'
+import closeBtn from '../images/closeGold.png'
 import logoWhite from '../images/glogo-Photoroom.png' 
 import logoblack from '../images/glogo-Photoroom.png' 
 
@@ -17,6 +17,10 @@ export default function Navbar(props){
     const [menuColor, setMenuColor] = useState('navMenuLinks')
     const [menuIcon, setMenuIcon] = useState('burgerMenuIcon') //hambugerMenu class
     const [dashboard, setDashboard] = useState('dashboard')
+
+    const navLinkClass = props.navLinkColor
+        ? props.navLinkColor.replace(/\bblack\b/g, '').trim() || 'navMenuLinks'
+        : 'navMenuLinks'
 
     useEffect(()=>{
         document.body.classList.remove('overflowHidden');
@@ -43,7 +47,7 @@ export default function Navbar(props){
         window.addEventListener('scroll', ()=>{
             if (window.scrollY > 100) {
                 setNavbar('navbar whiteBG')
-                setMenuColor("navMenuLinks black")
+                setMenuColor("navMenuLinks")
                 setLogoP(logoblack)
                 setNavLine('navLine navLineZero')
                 if (window.innerWidth < 769) {
@@ -75,10 +79,10 @@ export default function Navbar(props){
                     </Link>
 
                     <div className='menu'>
-                        <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>home</Link>
-                        {/* <Link to='/' className={props.navLinkColor ? props.navLinkColor : menuColor}>about</Link> */}
-                        <Link to='/services' className={props.navLinkColor ? props.navLinkColor : menuColor}>services</Link>
-                        <p className={props.navLinkColor ? props.navLinkColor : menuColor} onClick={handleButtonClick}>Call</p>
+                        <Link to='/' className={navLinkClass}>home</Link>
+                        {/* <Link to='/' className={navLinkClass}>about</Link> */}
+                        <Link to='/services' className={navLinkClass}>services</Link>
+                        <p className={navLinkClass} onClick={handleButtonClick}>Call</p>
                     </div>
 
                     <div className='burgerMenu' onClick={burgerHandler}>

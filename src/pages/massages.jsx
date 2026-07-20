@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { massageList } from "../components/dataBase";
 import Navbar from "../components/navbar/navbar";
 import "./massages.css"
-import burgerBlack from '../components/images/burgerMenuBlack.webp'
+import burgerBlack from '../components/images/burgerMenuGold.png'
 import logoBlack from '../components/images/glogo-Photoroom.png'
 import SEO from "../components/SEO";
 
@@ -21,7 +21,7 @@ export default function Massages(){
 
         <Navbar
                 bg='navbar whiteBG'
-                navLinkColor='navMenuLinks black'
+                navLinkColor='navMenuLinks'
                 logoColor={logoBlack}
                 burgerWhite={burgerBlack} 
                 burgerBlack={burgerBlack}

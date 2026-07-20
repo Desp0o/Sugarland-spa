@@ -6,8 +6,8 @@ import Navbar from '../../components/navbar/navbar'
 import OurServices from "./ourServices/ourServices";
 import FAQ from "./FAQ/FAQ";
 
-import burgerWhite from '../../components/images/burgerMenu.webp'
-import burgerBlack from '../../components/images/burgerMenuBlack.webp'
+import burgerWhite from '../../components/images/burgerMenuGold.png'
+import burgerBlack from '../../components/images/burgerMenuGold.png'
 import React from "react";
 import SEO from "../../components/SEO";
 

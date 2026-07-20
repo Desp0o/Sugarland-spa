@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/navbar/navbar";
 import SEO from "../components/SEO";
 import logoBlack from '../components/images/glogo-Photoroom.png'
-import burgerBlack from '../components/images/burgerMenuBlack.webp'
+import burgerBlack from '../components/images/burgerMenuGold.png'
 
 export default function Services() {
 
@@ -19,7 +19,7 @@ export default function Services() {
 
             <Navbar
                 bg='navbar whiteBG'
-                navLinkColor='navMenuLinks black'
+                navLinkColor='navMenuLinks'
                 logoColor={logoBlack}
                 burgerWhite={burgerBlack} 
                 burgerBlack={burgerBlack}

@@ -23,7 +23,7 @@
   min-width: 350px;
   max-width: 350px;
   height: 300px;
-  border: 1px solid whitesmoke;
+  border: 1px solid #FCE576;
 }
 
 .massageBlock_cover {
@@ -41,7 +41,7 @@
   font-size: 24px;
   font-family: "upright";
   text-transform: uppercase;
-  color: rgb(255, 255, 255);
+  color: #FCE576;
 }
 
 .sliderSwiperHeaderSmall {
@@ -52,7 +52,7 @@
   font-size: 21.1px;
   font-family: "upright";
   text-transform: uppercase;
-  color: rgb(255, 255, 255);
+  color: #FCE576;
 }
 
 .swiper-slide a {
@@ -67,7 +67,7 @@
   height: 100%;
   object-fit: cover;
   filter: brightness(80%);
-  border: 1px solid white;
+  border: 1px solid #FCE576;
 }
 
 @media (max-width: 769px) {
@@ -86,14 +86,7 @@
       font-size: 18px;
       font-family: "upright";
       text-transform: uppercase;
-      color: rgb(255, 255, 255);
-  }
-
-  .massageBlock {
-      position: relative;
-      min-width: 265px;
-      max-width: 265px;
-      height: 300px;
-      border: 1px solid whitesmoke;
+  color: #FCE576;
+      border: 1px solid #FCE576;
   }
 }
