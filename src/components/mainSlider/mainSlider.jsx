@@ -20,7 +20,7 @@ const sliderArr = [
         image: `${deepTissue}`,
         header:'',
         text1:'We will bring high quality spa services at your place',
-        text2: 'All you need to give us call',
+        text2: 'All you need is to give us call',
         text3: ''
     },
 

@@ -4,7 +4,7 @@ import { massageList } from '../components/dataBase'
 import { Link } from "react-router-dom";
 import Navbar from "../components/navbar/navbar";
 import SEO from "../components/SEO";
-import logoBlack from '../components/images/logoBlack1.png'
+import logoBlack from '../components/images/glogo-Photoroom.png'
 import burgerBlack from '../components/images/burgerMenuBlack.webp'
 
 export default function Services() {
