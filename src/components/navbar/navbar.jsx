@@ -114,7 +114,7 @@ export default function Navbar(props){
 
                         <div className="contactUsNavbar">
                             <h2>Contact</h2>
-                            <p onClick={handleButtonClick}>T: 786 531 0916</p>
+                            <p onClick={handleButtonClick}>T: 786 481 4888</p>
                             <p className='navContactEmal'>Namourmassage@gmail.com</p>
                         </div>
                 </div>
