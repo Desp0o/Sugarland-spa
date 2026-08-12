@@ -26,7 +26,7 @@ export default function Footer(){
 
                         <div className="contactUs">
                             <h3>Contact</h3>
-                            <p>T: 786 531 0916</p>
+                            <p>T: 786 481 4888</p>
                             <p>Namourmassage@gmail.com	</p>
                             <p>245 ne 14th st, <br/>
                             <span></span>Miami Florida,<br/>
