@@ -27,7 +27,7 @@ export default function Navbar(props){
     },[])
 
     const handleButtonClick = () => {
-        window.location.href = `tel:786 531 0916`;
+        window.location.href = `tel:7864814888`;
       };
 
     const burgerHandler = ()=> {
@@ -115,7 +115,7 @@ export default function Navbar(props){
                         <div className="contactUsNavbar">
                             <h2>Contact</h2>
                             <p onClick={handleButtonClick}>T: 786 481 4888</p>
-                            <p className='navContactEmal'>Namourmassage@gmail.com</p>
+                            <p className='navContactEmal'><a href="mailto:Info.namourmassage@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>Info.namourmassage@gmail.com</a></p>
                         </div>
                 </div>
             </nav>
