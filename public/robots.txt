@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://namourmassage.com/sitemap.xml
+
+
